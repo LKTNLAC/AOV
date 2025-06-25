@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danh Sách Tướng Liên Quân</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0c0f1a;
+      color: #fff;
+    }
+    header {
+      background-color: #161b2b;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5em;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .hero-card {
+      background-color: #1e2333;
+      border-radius: 10px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .hero-card:hover {
+      transform: scale(1.05);
+    }
+    .hero-img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .hero-info {
+      padding: 10px;
+      text-align: center;
+    }
+    .popup {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+    .popup-content {
+      background: #1e2333;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      width: 100%;
+      color: #fff;
+    }
+    .popup h2 { margin-top: 0; }
+    .popup button {
+      background: #ff4081;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>Danh Sách Tướng Liên Quân</header>
+  <div class="hero-grid" id="heroGrid"></div>
+
+  <div class="popup" id="popup" style="display: none;">
+    <div class="popup-content">
+      <h2 id="heroName"></h2>
+      <p><strong>Vai trò:</strong> <span id="heroRole"></span></p>
+      <p><strong>Tướng counter:</strong></p>
+      <ul id="heroCounter"></ul>
+      <button onclick="closePopup()">Đóng</button>
+    </div>
+  </div>
+
+  <script>
+    const heroes = [
+      {
+        name: "Florentino",
+        role: "Đấu sĩ",
+        image: "media/Florentino.jpg",
+        counter: ["Murad", "Tulen", "Fennik"]
+      },
+      {
+        name: "Omen",
+        role: "Đấu sĩ",
+        image: "Media/Omen.jpg",
+        counter: ["Florention", "Mina"]
+      },
+      {
+        name: "Biron",
+        role: "Đấu sĩ",
+        image: "Media/Biron.jpg",
+        counter: ["Florentino", "Marja"]
+      },
+      {
+        name: "Omen",
+        role: "Đấu sĩ",
+        image: "Media/Omen.jpg",
+        counter: ["Florention", "Mina"]
+      },
+      {
+        name: "Biron",
+        role: "Đấu sĩ",
+        image: "Media/Biron.jpg",
+        counter: ["Florentino", "Marja"]
+      },
+      {
+        name: "Omen",
+        role: "Đấu sĩ",
+        image: "Media/Omen.jpg",
+        counter: ["Florention", "Mina"]
+      },
+      {
+        name: "Biron",
+        role: "Đấu sĩ",
+        image: "Media/Biron.jpg",
+        counter: ["Florentino", "Marja"]
+      },
+      {
+        name: "Omen",
+        role: "Đấu sĩ",
+        image: "Media/Omen.jpg",
+        counter: ["Florention", "Mina"]
+      },
+      {
+        name: "Biron",
+        role: "Đấu sĩ",
+        image: "Media/Biron.jpg",
+        counter: ["Florentino", "Marja"]
+      },
+      {
+        name: "Omen",
+        role: "Đấu sĩ",
+        image: "Media/Omen.jpg",
+        counter: ["Florention", "Mina"]
+      },
+      {
+        name: "Biron",
+        role: "Đấu sĩ",
+        image: "Media/Biron.jpg",
+        counter: ["Florentino", "Marja"]
+      },
+      {
+        name: "Omen",
+        role: "Đấu sĩ",
+        image: "Media/Omen.jpg",
+        counter: ["Florention", "Mina"]
+      },
+      {
+        name: "Biron",
+        role: "Đấu sĩ",
+        image: "Media/Biron.jpg",
+        counter: ["Florentino", "Marja"]
+      }
+    ];
+
+    const heroGrid = document.getElementById("heroGrid");
+
+    heroes.forEach(hero => {
+      const card = document.createElement("div");
+      card.className = "hero-card";
+      card.innerHTML = `
+        <img class="hero-img" src="${hero.image}" alt="${hero.name}">
+        <div class="hero-info">
+          <h3>${hero.name}</h3>
+          <p>${hero.role}</p>
+        </div>
+      `;
+      card.onclick = () => openPopup(hero);
+      heroGrid.appendChild(card);
+    });
+
+    function openPopup(hero) {
+      document.getElementById("heroName").textContent = hero.name;
+      document.getElementById("heroRole").textContent = hero.role;
+      const skinList = document.getElementById("heroCounter");
+      skinList.innerHTML = "";
+      hero.counter.forEach(skin => {
+        const li = document.createElement("li");
+        li.textContent = skin;
+        skinList.appendChild(li);
+      });
+      document.getElementById("popup").style.display = "flex";
+    }
+
+    function closePopup() {
+      document.getElementById("popup").style.display = "none";
+    }
+  </script>
+</body>
+</html>

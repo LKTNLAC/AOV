@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danh Sách Tướng Liên Quân</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0c0f1a;
+      color: #fff;
+    }
+    header {
+      background-color: #161b2b;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5em;
+    }
+    nav {
+      background-color: #1e2333;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 10px 0;
+      font-size: 1.1em;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background-color: #3c4a6e;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      gap: 15px;
+      padding: 20px;
+    }
+    .hero-card {
+      background-color: #1e2333;
+      border-radius: 10px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .hero-card p {
+      margin: 0;
+      font-size: 0.9em;
+    }
+    .hero-card:hover {
+      transform: scale(1.05);
+    }
+    .hero-img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+    }
+    .hero-info {
+      padding: 4px;
+      text-align: center;
+      font-size: 0.85em;
+      line-height: 1.2;
+    }
+    .popup {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+    .popup-content {
+      background: #1e2333;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      width: 100%;
+      color: #fff;
+    }
+    .popup h2 { margin-top: 0; }
+    .popup button {
+      background: #ff4081;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+    }
+    .role-filter {
+      background-color: #121620;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px 20px;
+    }
+    .role-filter button {
+      background-color: #2c3247;
+      color: white;
+      border: none;
+      padding: 6px 14px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .role-filter button:hover {
+      background-color: #44506c;
+    }
+  </style>
+</head>
+<body>
+  <header>Danh Sách Tướng Liên Quân</header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Ban</a>
+    <a href="#">Pick</a>
+  </nav>
+
+  <div class="role-filter">
+    <button onclick="filterByRole('Tất cả')">Tất cả</button>
+    <button onclick="filterByRole('Xạ thủ')">Xạ thủ</button>
+    <button onclick="filterByRole('Đấu sĩ')">Đấu sĩ</button>
+    <button onclick="filterByRole('Sát thủ')">Sát thủ</button>
+    <button onclick="filterByRole('Pháp sư')">Pháp sư</button>
+    <button onclick="filterByRole('Trợ thủ')">Trợ thủ</button>
+    <button onclick="filterByRole('Đỡ đòn')">Đỡ đòn</button>
+  </div>
+
+  <div class="hero-grid" id="heroGrid"></div>
+
+  <div class="popup" id="popup" style="display: none;">
+    <div class="popup-content">
+      <h2 id="heroName"></h2>
+      <p><strong>Vai trò:</strong> <span id="heroRole"></span></p>
+      <p><strong>Tướng counter:</strong></p>
+      <ul id="heroCounter"></ul>
+      <button onclick="closePopup()">Đóng</button>
+    </div>
+  </div>
+
+  <script>
+    const heroes = [
+      { name: "", role: "", image: "media/.jpg", counter: ["", "", ""] },
+      { name: "Florentino", role: "Đấu sĩ", image: "media/Florentino.jpg", counter: ["Murad", "Tulen", "Fennik"] },
+      { name: "Omen", role: "Đấu sĩ", image: "Media/Omen.jpg", counter: ["Florentino", "Mina"] },
+      { name: "Biron", role: "Đỡ đòn", image: "Media/Biron.jpg", counter: ["Florentino", "Marja"] }
+    ];
+
+    const heroGrid = document.getElementById("heroGrid");
+
+    function renderHeroes(filteredList = heroes) {
+      heroGrid.innerHTML = "";
+      filteredList.forEach(hero => {
+        const card = document.createElement("div");
+        card.className = "hero-card";
+        card.innerHTML = `
+          <img class="hero-img" src="${hero.image}" alt="${hero.name}">
+          <div class="hero-info">
+            <p>${hero.name}</p>
+          </div>
+        `;
+        card.onclick = () => openPopup(hero);
+        heroGrid.appendChild(card);
+      });
+    }
+
+    function filterByRole(role) {
+      if (role === "Tất cả") renderHeroes();
+      else renderHeroes(heroes.filter(h => h.role === role));
+    }
+
+    function openPopup(hero) {
+      document.getElementById("heroName").textContent = hero.name;
+      document.getElementById("heroRole").textContent = hero.role;
+
+      const counterList = document.getElementById("heroCounter");
+      counterList.innerHTML = "";
+      hero.counter.forEach(c => {
+        const li = document.createElement("li");
+        li.textContent = c;
+        counterList.appendChild(li);
+      });
+
+      document.getElementById("popup").style.display = "flex";
+    }
+
+    function closePopup() {
+      document.getElementById("popup").style.display = "none";
+    }
+
+    renderHeroes();
+  </script>
+</body>
+</html>
