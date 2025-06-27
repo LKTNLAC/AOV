@@ -26,7 +26,7 @@
                 <ul class="nav navbar-nav main-nav">
                     <li class="nav-item"><a href="Home.html" class="nav-link">Trang chủ</a></li>
                     <li class="nav-item"><a href="About.html" class="nav-link">Giới thiệu</a></li>
-                    <li class="nav-item"><a href="demo2.html" class="nav-link">Tướng</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Tướng</a></li>
                     <li class="nav-item"><a href="Contact.html" class="nav-link">Liên hệ</a></li>
                     <li class="nav-item"><a href="Pages" class="nav-link">Đăng nhập</a></li>
                 </ul>
@@ -37,6 +37,35 @@
 
             <p><a href="Deals" class="da">DAILY DEALS!</a></p>
         </div>
+    </div>
+    <!--Banner-->
+    <div class="carousel slide" id="banner" data-bs-ride="carousel" data-bs-interval="3000">
+        
+        <div class="carousel-indicators">
+            <button data-bs-slide-to="0" data-bs-target="#banner" class="active"></button>
+            <button data-bs-slide-to="1" data-bs-target="#banner"></button>
+        </div>
+        <div class="carousel-inner">
+            <!--1-->
+            <div class="carousel-item active ban">
+                <img src="Media/banners22025v3.png" class="w-100 ban ban-a" alt="">
+                
+                
+            </div>
+            <!--2-->
+            <div class="carousel-item ban">
+                <img src="Media/banners22025v4.jpg" class="w-100 ban ban-a" alt="">
+                
+                
+            </div>
+        </div>
+        <!--Move banner button-->
+        <a href="#banner" class="carousel-control-next" data-bs-slide="next">
+            <i class="fa-solid fa-chevron-right"></i>
+        </a>
+        <a href="#banner" class="carousel-control-prev" data-bs-slide="prev">
+            <i class="fa-solid fa-chevron-left"></i>
+        </a>
     </div>
 
     <!--FOOTER-->
@@ -84,5 +113,10 @@
         </div>
     </footer>
     
-    <script src="script.js"></script>
+    
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/script.js"></script>
 </body>
