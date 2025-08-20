@@ -795,7 +795,7 @@
         { 
             name: "Thệ Ước Carano",  // Tên trang bị
             role: ["Công Phép"], // Vai trò của trang bị
-            image: "Media/The-uoc-carano.jpg", // Đường dẫn đến hình ảnh của trang bị
+            image: "Media/The-uoc-Carano.jpg", // Đường dẫn đến hình ảnh của trang bị
             price: ["2050"], // Giá của trang bị
             primary:["",""], // Trang bị sơ cấp
             note: ""
