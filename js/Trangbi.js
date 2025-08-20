@@ -434,7 +434,7 @@
         { 
             name: "Huyết Đao",  // Tên trang bị
             role: ["Công Vật Lý"], // Vai trò của trang bị
-            image: "Media/huyet-dao.png", // Đường dẫn đến hình ảnh của trang bị
+            image: "Media/Huyet-dao.png", // Đường dẫn đến hình ảnh của trang bị
             price: ["830"], // Giá của trang bị
             primary:["",""], // Trang bị sơ cấp
             note: ""
@@ -557,7 +557,7 @@
         { 
             name: "Ma Pháp Trường Bào",  // Tên trang bị
             role: ["Công Phép"], // Vai trò của trang bị
-            image: "Media/ma-phap-truong-bao.jpg", // Đường dẫn đến hình ảnh của trang bị
+            image: "Media/Ma-phap-truong-bao.jpg", // Đường dẫn đến hình ảnh của trang bị
             price: ["2160"], // Giá của trang bị
             primary:["",""], // Trang bị sơ cấp
             note: ""
@@ -795,7 +795,7 @@
         { 
             name: "Thệ Ước Carano",  // Tên trang bị
             role: ["Công Phép"], // Vai trò của trang bị
-            image: "Media/the-uoc-carano.jpg", // Đường dẫn đến hình ảnh của trang bị
+            image: "Media/The-uoc-carano.jpg", // Đường dẫn đến hình ảnh của trang bị
             price: ["2050"], // Giá của trang bị
             primary:["",""], // Trang bị sơ cấp
             note: ""
@@ -811,7 +811,7 @@
         { 
             name: "Thương Đấu Sĩ",  // Tên trang bị
             role: ["Công Vật Lý"], // Vai trò của trang bị
-            image: "Media/Thuong-dau-si.png", // Đường dẫn đến hình ảnh của trang bị
+            image: "Media/thuong-dau-si.png", // Đường dẫn đến hình ảnh của trang bị
             price: ["830"], // Giá của trang bị
             primary:["",""], // Trang bị sơ cấp
             note: ""
@@ -819,7 +819,7 @@
         { 
             name: "Thương Khung Kiếm",  // Tên trang bị
             role: ["Công Vật Lý"], // Vai trò của trang bị
-            image: "Media/Thuong-khung-kiem.png", // Đường dẫn đến hình ảnh của trang bị
+            image: "Media/thuong-khung-kiem.png", // Đường dẫn đến hình ảnh của trang bị
             price: ["2120"], // Giá của trang bị
             primary:["",""], // Trang bị sơ cấp
             note: ""
@@ -827,7 +827,7 @@
         { 
             name: "Thương Longinus",  // Tên trang bị
             role: ["Công Vật Lý"], // Vai trò của trang bị
-            image: "Media/Thuong-longinus.png", // Đường dẫn đến hình ảnh của trang bị
+            image: "Media/thuong-longinus.png", // Đường dẫn đến hình ảnh của trang bị
             price: ["2030"], // Giá của trang bị
             primary:["",""], // Trang bị sơ cấp
             note: ""
@@ -835,7 +835,7 @@
         { 
             name: "Thương Xuyên Phá",  // Tên trang bị
             role: ["Công Vật Lý"], // Vai trò của trang bị
-            image: "Media/Thuong-xuyen-pha.png", // Đường dẫn đến hình ảnh của trang bị
+            image: "Media/thuong-xuyen-pha.png", // Đường dẫn đến hình ảnh của trang bị
             price: ["2020"], // Giá của trang bị
             primary:["",""], // Trang bị sơ cấp
             note: ""
