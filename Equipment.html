@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danh Sách Tướng Liên Quân</title>
+    <title>Danh Sách Trang Bị Liên Quân</title>
     
-    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/equipment.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>Danh Sách Tướng Liên Quân</header>
+    <header>Danh Sách Trang Bị Liên Quân</header>
     <!--Thanh bar-->
     <nav>
         <a href="Home.html">Trang chủ</a>
@@ -22,37 +22,38 @@
     <!--Thanh bar vị tri tướng-->
     <div class="role-filter">
         <button onclick="filterByRole('Tất cả')">Tất cả</button>
-        <button onclick="filterByRole('Top')">TOP</button>
-        <button onclick="filterByRole('Jungle')">JUNGLE</button>
-        <button onclick="filterByRole('Mid')">MID</button>
-        <button onclick="filterByRole('Ad')">AD</button>
-        <button onclick="filterByRole('Sp')">SP</button>
+        <button onclick="filterByRole('Vatly')">Vật Lý</button>
+        <button onclick="filterByRole('rung')">Rừng</button>
+        <button onclick="filterByRole('Phep')">Phép</button>
+        <button onclick="filterByRole('Thu')">Thủ</button>
+        <button onclick="filterByRole('Tocchay')">Tốc Chạy</button>
+        <button onclick="filterByRole('Hotro')">Hỗ Trợ</button>
     </div>
 
-    <div class="hero-grid" id="heroGrid"></div>
+    <div class="equip-grid" id="equipGrid"></div>
 <!--Popup hiển thị thông tin tướng-->
     <div class="popup" id="popup" style="display: none;">
         <div class="popup-content">
-            <h2 id="heroName"></h2>
-            <p><strong>Vai trò:</strong> <span id="heroRole"></span></p>
+            <h2 id="equipName"></h2>
+            <p><strong>Vai trò:</strong> <span id="equipRole"></span></p>
             <!--Tướng counter-->
-            <p><strong>Tướng counter:</strong></p>
-            <div id="heroCounterImages" style="display: flex; gap: 10px; margin-top: 10px;"></div>
+            <p><strong>Giá Vàng: </strong></p>
+            <div id="equipPrice" style="display: flex; gap: 10px; margin-top: 10px;"></div>
             <!--<ul id="heroCounter"></ul>-->
             <!--Tướng hỗ trợ-->
-            <p><strong>Tướng hỗ trợ:</strong></p>
-            <div id="heroSuitableImages" style="display: flex; gap: 10px; margin-top: 10px;"></div>
+            <p><strong>Trang Bị Sơ Cấp:</strong></p>
+            <div id="equipPrimaryImages" style="display: flex; gap: 10px; margin-top: 10px;"></div>
             <!--<ul id="heroSuitable"></ul>-->
             <!--Trang bị-->
 
             <!--Ghi chú-->
             <p><strong>Ghi chú:</strong></p>
-            <p id="heroNote" style="white-space: pre-wrap; font-style: italic;"></p>
+            <p id="equipNote" style="white-space: pre-wrap; font-style: italic;"></p>
             <!--Đóng-->
             <button onclick="closePopup()">Đóng</button>
         </div>
     </div>
 
-    <script src="js/hero.js"></script>
+    <script src="js/Trangbi.js"></script>
 </body>
 </html>
