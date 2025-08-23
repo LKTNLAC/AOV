@@ -8,14 +8,16 @@
             image: "Media/Airi.jpg", // Đường dẫn đến hình ảnh của tướng
             counter: ["Murad", "Ryoma", "Marja", "Dextra", "Yena", "Raz", "Omega"], // Tướng có thể khắc chế
             suitable:["",""], // Tướng hỗ trợ
+            equipments: ["Áo Choàng Băng Giá", "Kiếm Fafnir", "Nanh Fenrir"], // Trang bị gợi ý
             note: "Airi mạnh cuối trận."
         },
         { 
             name: "Aleister", 
             role: ["Mid"], 
             image: "Media/Aleister.jpg", 
-            counter: ["Ilumia", "Chaugnar", "Điêu Thuyền"], 
+            counter: ["Ilumia", "Chaugnar", "Điêu Thuyền","Ishar"], 
             suitable:["Bijan","Arum","Mina"],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"Aleister là một pháp sư mạnh với khả năng khống chế tốt, nhưng cần phải cẩn thận với những tướng có khả năng áp sát nhanh."  
         },
         { 
@@ -24,6 +26,7 @@
             image: "Media/Alice.png", 
             counter: ["Elandorr", "Raz", "Fennik"], 
             suitable:["Fennik","Telannas","Yorn"],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note: "Alice là một hỗ trợ mạnh với khả năng bảo vệ đồng đội và khống chế kẻ địch, nhưng cần phải cẩn thận với những tướng có khả năng áp sát nhanh." 
         },
         { 
@@ -32,6 +35,7 @@
             image: "Media/Allain.jpg", 
             counter: ["Kriknak", "Murad", "Keera","Ngộ Không","Bijan","Billow","Biron","Mina"], 
             suitable:["Butterfly","Paine","Krizzix","Lữ Bố","Richter","KiiGroth"],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:""
         },
         { 
@@ -40,6 +44,7 @@
             image: "Media/Amily.jpg", 
             counter: ["", "", ""], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"Tướng tù vcl" 
         },
         { 
@@ -48,14 +53,16 @@
             image: "Media/Annette.jpg", 
             counter: ["", "", ""], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { 
             name: "Aoi", 
             role: ["Jungle"], 
             image: "Media/Aoi.jpeg", 
-            counter: ["Keera", "Rourke", "Zephys","Stuart","Omega"], 
+            counter: ["Keera", "Rourke", "Zephys","Stuart","Omega","Nakroth","Skud"], 
             suitable:["Richter","Qi","Skud","Yena"],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { 
@@ -64,6 +71,7 @@
             image: "Media/Arduin.jpg", 
             counter: ["Aleister", "Hayate", "Gildur","Tachi","Maloch"], 
             suitable:["Rouie",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { 
@@ -72,6 +80,7 @@
             image: "Media/Arthur.jpg", 
             counter: ["Bijan", "Florentino", "Maloch","Tachi","Hayate","Triệu Vân","Điêu Thuyền","Aleister"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"Nâng max chiêu 2" 
         },
         { 
@@ -80,6 +89,7 @@
             image: "Media/Arum.jpg", 
             counter: ["Slimz", "Zip", ""], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"Áp sát chủ lực hợp lý, tránh giao tranh tổng sớm" 
         },
         { 
@@ -88,6 +98,7 @@
             image: "Media/Astrid.jpg", 
             counter: ["Florentino", "", ""], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"Tướng late game, cần farm nhiều" 
         },
         { 
@@ -96,13 +107,15 @@
             image: "Media/Ata.jpg", 
             counter: ["", "", ""], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"Tướng đầu game, nâng max chiêu 1, chiêu cuối hợp lý tránh bóp team! Ngăn đc ulti Zip. Phù hợp khi team địch thiếu cơ động" },
         { 
             name: "Aya", 
             role: ["Sp"], 
             image: "Media/Aya.jpg", 
-            counter: ["Mganga", "Maloch", "Hayate", "Tachi", "Airi", "Triệu Vân", "Florentino"], 
+            counter: ["Mganga", "Maloch", "Hayate", "Tachi", "Airi", "Triệu Vân", "Florentino","Krizzix","Arum"], 
             suitable:["Maloch","Nakroth", "Athur", "Taara", "Tachi"],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" },
         { 
             name: "Azzenka", 
@@ -110,6 +123,7 @@
             image: "Media/Azzenka.jpg", 
             counter: ["", "", ""], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" },
         //B
         { 
@@ -118,6 +132,7 @@
             image: "Media/Baldum.jpg", 
             counter: ["Thane", "Lumburr", "Chaugnar"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { 
@@ -126,6 +141,7 @@
             image: "Media/Bijan.jpg", 
             counter: ["Florentino", "Omen", "Triệu Vân", "Billow", "Zip", "Ata", "Hayate"], 
             suitable:["Triệu Vân","Celica"],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"Lái xe cẩn thận, tướng mạnh đầu game." 
         },
         { 
@@ -134,7 +150,8 @@
             image: "Media/Billow.jpg", 
             counter: ["Aoi", "Aleister", "Keera", "Stuart", "Arum", "Roxie"], 
             suitable:["Krizzix",""],
-            note:"" 
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"Tướng siêu mạnh đầu game dù bị nerf, late game yếu vl" 
         },
         { 
             name: "Biron", 
@@ -142,6 +159,7 @@
             image: "Media/Biron.jpg", 
             counter: ["Florentino", "Marja", "Murad", "Skud", "Hayate", "Thane"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { 
@@ -150,17 +168,26 @@
             image: "Media/Bolt Baron.jpg", 
             counter: ["Enzo", "Natalya", "FLorentino", "Marja", "Liliana", "Keera", "Tachi"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { name: "Bonnie", role: ["Mid","Sp"], image: "Media/Bonnie.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
         { name: "Bright", role: ["Top","Jungle","Ad"], image: "Media/Bright.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
         { name: "Butterfly", role: ["Jungle"], image: "Media/Butterfly.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
         //C
-        { name: "Capheny", role: ["Ad"], image: "Media/Capheny.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Capheny", 
+            role: ["Ad"], 
+            image: "Media/Capheny.jpg", 
+            counter: ["Valhein", "Violet", "Stuart"], 
+            suitable:["Ming",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { name: "Celica", role: ["Ad"], image: "Media/Celica.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
         { name: "Charlotte", role: ["Top"], image: "Media/Charlotte.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
         { name: "Chaugnar", role: ["Sp","Mid"], image: "Media/Chaugnar.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Cresht", role: ["Sp"], image: "Media/Cresht.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { name: "Cresht", role: ["Sp"], image: "Media/Cresht.jpg", counter: ["Florentino", "", ""], suitable:["",""],note:"" },
         //D
         { name: "Darcy", role: ["Mid","Jungle"], image: "Media/Darcy.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
         { 
@@ -169,6 +196,7 @@
             image: "Media/Dextra.jpg", 
             counter: ["Marja", "Florentino", "Keera", "Murad", "Hayate", "Enzo"], 
             suitable:["Sinestrea",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"Khi bật ulti hạn chế đánh vào nó." 
         },
         { 
@@ -177,6 +205,7 @@
             image: "Media/Điêu Thuyền.jpg", 
             counter: ["Yena", "Iggy", "Yue","Lorion","Florentino"], 
             suitable:["Krizzix","Grak","Enzo","Gildur"],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { 
@@ -185,6 +214,7 @@
             image: "Media/Dirak.jpg", 
             counter: ["Liliana", "Tulen", "Zata", "Lorion", "Yena", "Yan", "Grakk"], 
             suitable:["Krizzik","Grak"],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { 
@@ -193,17 +223,27 @@
             image: "Media/Dolia.jpg", 
             counter: ["Raz", "Liliana", "Lorion"], 
             suitable:["Maloch","Ilumia","Kahlii","Tachi","Stuart","Wonder Woman","Volkath"],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         //E
         { name: "Elandorr", role: ["Jungle","Ad"], image: "Media/Elandorr.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Elsu", role: ["Ad"], image: "Media/Elsu.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Elsu", 
+            role: ["Ad"], 
+            image: "Media/Elsu.jpg", 
+            counter: ["Slimz", "Violet", "Stuart"], 
+            suitable:["Gildur","Iggy","Yue","Liliana","Heino","Điêu Thuyền"],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Enzo", 
             role: ["Jungle","Sp"], 
             image: "Media/Enzo.jpg", 
             counter: ["Thane", "Hayate", "Toro", "Ybneth","Keera","Florentino", "Grakk"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { 
@@ -212,20 +252,70 @@
             image: "Media/Errol.jpg", 
             counter: ["Florentino", "Hayate", "Athur","Thane", "Marja", "Wonder Woman"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { name: "Erin", role: ["Mid","Ad"], image: "Media/Erin.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
         //{ name: "Errol", role: ["Top","Jungle"], image: "Media/Errol.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
         //F
         { name: "Fennik", role: ["Jungle","Ad"], image: "Media/Fennik.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Florentino", role: ["Top"], image: "Media/Florentino.jpg", counter: ["Murad", "Tulen", "Fennik"], suitable:["",""],note:"" },
+        { 
+            name: "Florentino", 
+            role: ["Top"], 
+            image: "Media/Florentino.jpg", 
+            counter: ["Murad", "Tulen", "Fennik", "Lauriel"], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         //G
-        { name: "Gildur", role: ["Mid","Sp"], image: "Media/Gildur.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Grakk", role: ["Sp"], image: "Media/Grakk.png", counter: ["Enzo", "Toro", "Chaugnar"], suitable:["Natalya","Valhein"],note:"" },
+        { 
+            name: "Gildur", 
+            role: ["Mid","Sp"], 
+            image: "Media/Gildur.jpg", 
+            counter: ["Chaugnar", "Alice", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { 
+            name: "Goverra", 
+            role: ["Mid"], 
+            image: "Media/Goverra.jpg", 
+            counter: ["Natalya", "Heino", "Veera","Ybenth","KiiGroth"], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { 
+            name: "Grakk", 
+            role: ["Sp"], 
+            image: "Media/Grakk.png", 
+            counter: ["Enzo", "Toro", "Chaugnar","Chaugnar"], 
+            suitable:["Natalya","Valhein"],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         //H
-        { name: "Hayate", role: ["Ad"], image: "Media/Hayate.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Hayate", 
+            role: ["Ad"], 
+            image: "Media/Hayate.jpg", 
+            counter: ["Capheny", "Valhein", "Stuart", "Violet"], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { name: "Heino", role: ["Mid","Top","Ad"], image: "Media/Heino.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Helen", role: ["Sp"], image: "Media/Helen.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Helen", 
+            role: ["Sp"], 
+            image: "Media/Helen.jpg", 
+            counter: ["Ybenth", "Thane", "Maloch","Baldum"], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         //I
         { 
             name: "Iggy", 
@@ -233,6 +323,7 @@
             image: "Media/Iggy.jpeg", 
             counter: ["Tulen", "Krixi", "Liliana", "Raz", "Darcy", "Aoi", "Ishar", "Lorion"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { 
@@ -241,6 +332,7 @@
             image: "Media/Ignis.jpg", 
             counter: ["Yue", "Liliana", "Lauriel"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { 
@@ -249,6 +341,7 @@
             image: "Media/Ilumia.jpg", 
             counter: ["Kahlii", "Yue", "Zata"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { name: "Ishar", role: ["Mid","Sp"], image: "Media/Ishar.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
@@ -262,6 +355,7 @@
             image: "Media/Kaine.jpg", 
             counter: ["Krizzix", "Fennik", "Ilumia", "Omen","Skud","Richter"], 
             suitable:["Krizzix",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { name: "Keera", role: ["Jungle"], image: "Media/Keera.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
@@ -271,14 +365,16 @@
             image: "Media/KiiGroth.gif", 
             counter: ["Marja", "Mina", "Ryoma", "Elandorr", "Baldum","Hayate"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { 
             name: "Kriknak", 
             role: ["Jungle"], 
             image: "Media/Kriknak.png", 
-            counter: ["Ilumia", "", ""], 
+            counter: ["Ilumia", "Aoi", "Zuka","Zephys"], 
             suitable:["Krixi","Krizzix"],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { 
@@ -287,6 +383,7 @@
             image: "Media/Krixi.png", 
             counter: ["Zata", "Liliana", "Aoi", "Ngộ Không", "Ignis", "Yue", "Lorion"], 
             suitable:["Krizzix","Kriknak","Grakk","Gildur"],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { 
@@ -295,6 +392,7 @@
             image: "Media/Krizzix.png", 
             counter: ["", "", ""], 
             suitable:["Krixi","Kriknak"],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         //L
@@ -304,15 +402,25 @@
             image: "Media/Lauriel.jpg", 
             counter: ["Natalya", "Zata", "Liliana", "Aleister", "Arum", "Keera", "Violet", "Roxie"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Laville", role: ["Ad"], image: "Media/Laville.jpg", counter: ["Mina", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Laville", 
+            role: ["Ad"], 
+            image: "Media/Laville.jpg", 
+            counter: ["Mina", "Toro", "Aya", "Stuart"], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Liliana", 
             role: ["Mid","Jungle"], 
             image: "Media/Liliana.jpg", 
             counter: ["Raz", "Heino", "Aleister", "Keera", "Yue", "Lorion", "Teemee"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { name: "Lindis", role: ["Jungle","Ad"], image: "Media/Lindis.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
@@ -322,25 +430,40 @@
             image: "Media/Lorion.jpg", 
             counter: ["Natalya", "Mganga", "Zata", "Lauriel", "Liliana", "Krixi", "Aoi", "Hayate", "Toro"], 
             suitable:["",""],
-            note:"" },
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { name: "Lữ Bố", role: ["Top","Jungle"], image: "Media/Lữ Bố.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
         { name: "Lumburr", role: ["Sp"], image: "Media/Lumburr.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
         //M
-        { name: "Maloch", role: ["Top","Mid","Sp"], image: "Media/Maloch.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Maloch", 
+            role: ["Top","Mid","Sp"], 
+            image: "Media/Maloch.jpg", 
+            counter: ["Thane", "Krizzix", "Baldum"], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Marja", 
             role: ["Top","Jungle"], 
             image: "Media/Marja.jpg", 
             counter: ["Ryoma", "Volkath", "Qi","Murad","Keera","Elandorr","Aleister"], 
-            suitable:["Krizzix",""],note:"" 
+            suitable:["Krizzix",""],
+            equipments: ["Giày Du Mục", "Thập Tự Kiếm", "Gươm Sấm Sét", "Vương Miện Hecate", "Ma Pháp Trường Bào", "Quả Cầu Băng Sương"],//Trang bị gợi ý
+            note:"" 
         },
-        { name: "Max", role: ["Top","Sp"], image: "Media/Max.jpg", counter: ["Arum", "", ""], suitable:["",""],note:"" },
+        { name: "Max", role: ["Top","Sp"], image: "Media/Max.jpg", counter: ["Arum", "", ""], suitable:["",""],equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Mganga", 
             role: ["Mid","Sp"], 
             image: "Media/Mganga.jpg", 
             counter: ["Ignis", "Enzo", "Natalya", "Fennik", "Florentino", "Zata", "Lauriel"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { 
@@ -349,9 +472,18 @@
             image: "Media/Mina.png", 
             counter: ["Florentino", "Krixi", "Natalya"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Ming", role: ["Sp"], image: "Media/Ming.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Ming", 
+            role: ["Sp"], 
+            image: "Media/Ming.jpg", 
+            counter: ["Liliana", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { name: "Moren", role: ["Ad"], image: "Media/Moren.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
         { 
             name: "Murad", 
@@ -359,6 +491,7 @@
             image: "Media/Murad.jpg", 
             counter: ["Qi", "Omen", "Ryoma", "Raz", "Ybneth", "Gildur", "Mina", "Alice"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         //N
@@ -369,6 +502,7 @@
             image: "Media/Natalya.jpg", 
             counter: ["Ignis", "Liliana", "Florentino", "Baldum","Lauriel"], 
             suitable:["Grakk","Valhein"],
+            equipments: ["Giày Thuật Sĩ", "Sách Truy Hồn", "Quyền Trượng Rhea", "Băng Nhẫn Skadi", "Gươm Hiền Triết", "Giáp Hộ Mệnh"],//Trang bị gợi ý
             note:"" 
         },
         { 
@@ -377,6 +511,7 @@
             image: "Media/Ngộ Không.jpg", 
             counter: ["Omen", "Skud", "Richter","Stuart","Enzo","Raz","Veera","Wonder Woman"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         //O
@@ -387,6 +522,7 @@
             image: "Media/Omen.jpg", 
             counter: ["Florentino", "Mina","Allan","Yena","Hayate","Zip"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { name: "Ormarr", role: ["Top","Sp"], image: "Media/Ormarr.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
@@ -400,32 +536,44 @@
             image: "Media/Qi.jpg", 
             counter: ["Florentino", "Omen", "Roxie", "Airi", "KiiGroth", "Omega", "Hayate"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Quillen", role: ["Jungle"], image: "Media/Quillen.jpg", counter: ["Krizzix", "Illumia", "Max"], suitable:["",""],note:"" },
+        { 
+            name: "Quillen", 
+            role: ["Jungle"], 
+            image: "Media/Quillen.jpg", 
+            counter: ["Krizzix", "Illumia", "Max"], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         //R
         { 
             name: "Raz", 
             role: ["Mid","Jungle","Sp"], 
             image: "Media/Raz.jpg", 
-            counter: ["Veera", "Krixi", "Tulen", "Natalya", "Wonder Woman", "Cresht", "Mganga", "Ignis"], 
+            counter: ["Veera", "Krixi", "Tulen", "Natalya", "Wonder Woman", "Cresht", "Mganga", "Ignis","Goveera"], 
             suitable:["",""],
+            equipments: ["Giày Phù Thủy", "Trượng Bùng Nổ", "Vương Miện Hecate", "Mặt Nạ Ma Quái", "Gươm Tận Thế", "Quả Cầu Băng Sương"],//Trang bị gợi ý
             note:"" 
         },
         { 
             name: "Richter", 
             role: ["Top","Sp"], 
             image: "Media/Richter.jpg", 
-            counter: ["Florentino", "Omen", "Skud", "Lữ Bố", "Biron", "Hayate"], 
+            counter: ["Florentino", "Omen", "Skud", "Lữ Bố", "Biron", "Hayate", "Biron"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { 
             name: "Rouie", 
             role: ["Mid","Sp"], 
             image: "Media/Rouie.jpg", 
-            counter: ["Raz", "Thane", "Krizzix","Ybneth", "Yue", "Zata", "Liliana", "Superman"], 
+            counter: ["Raz", "Thane", "Krizzix","Ybneth", "Yue", "Zata", "Liliana", "Superman","Maloch"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { name: "Rourke", role: ["Jungle"], image: "Media/Rourke.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
@@ -436,6 +584,7 @@
             image: "Media/Ryoma.jpg", 
             counter: ["Aoi", "Richter", "Teemee", "Omen", "Yena", "Qi"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" },
         //S
         { name: "Sephera", role: ["Jungle","Sp"], image: "Media/Sephera.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
@@ -446,11 +595,36 @@
             image: "Media/Skud.jpg", 
             counter: ["FLorentino", "Maloch", "Marja", "Hayate", "Wonder Woman", "Qi", "Veres"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Slimz", role: ["Ad"], image: "Media/Slimz.png", counter: ["Elsu", "", ""], suitable:["",""],note:"" },
-        { name: "Stuart", role: ["Ad"], image: "Media/Stuart.jpg", counter: ["Raz", "Erin", ""], suitable:["",""],note:"" },
-        { name: "Superman", role: ["Top","Mid","Sp"], image: "Media/Superman.jpg", counter: ["Ignis", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Slimz", 
+            role: ["Ad"], 
+            image: "Media/Slimz.png", 
+            counter: ["Elsu", "Valhein", "Stuart", "Violet"], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { 
+            name: "Stuart", 
+            role: ["Ad"], 
+            image: "Media/Stuart.jpg", 
+            counter: ["Raz", "Erin", "Helen","Dolia","Taara","Iggy"], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { 
+            name: "Superman", 
+            role: ["Top","Mid","Sp"], 
+            image: "Media/Superman.jpg", 
+            counter: ["Ignis", "Azzenka", "Aleister"], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         //T
         { 
             name: "Taara", 
@@ -458,20 +632,54 @@
             image: "Media/Taara.jpg", 
             counter: ["Florentino", "Veres", "Airi"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { 
             name: "Tachi", 
             role: ["Top","Jungle","Sp"], 
             image: "Media/Tachi.jpg", 
-            counter: ["Hayate", "Maloch", "Elandorr","Florentino", "Enzo"], 
+            counter: ["Hayate", "Maloch", "Elandorr","Florentino", "Enzo", "Nakroth","Keera"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Teemee", role: ["Sp","Top"], image: "Media/Teemee.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Telannas", role: ["Ad"], image: "Media/Telannas.jpg", counter: ["Stuart", "", ""], suitable:["",""],note:"" },
-        { name: "Terri", role: ["Ad"], image: "Media/Terri.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Thane", role: ["Sp"], image: "Media/Thane.png", counter: ["Florentino", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Teemee", 
+            role: ["Sp","Top"], 
+            image: "Media/Teemee.jpg", 
+            counter: ["Krizzix", "Maloch", "Ybneth"], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { 
+            name: "Telannas", 
+            role: ["Ad"], 
+            image: "Media/Telannas.jpg", 
+            counter: ["Stuart", "Violet", "Elsu"], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { 
+            name: "Terri", 
+            role: ["Ad"], 
+            image: "Media/Terri.jpg", 
+            counter: ["Elsu", "Stuart", "Capheny"], 
+            suitable:["Krizzik",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { 
+            name: "Thane", 
+            role: ["Sp"], 
+            image: "Media/Thane.png", 
+            counter: ["Florentino", "Teemee", "Lumburr","Chaugnar"], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { name: "The Flash", role: ["Mid","Jungle"], image: "Media/The Flash.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
         { name: "Thorne", role: ["Ad"], image: "Media/Thorne.jpg", counter: ["Stuart", "Valhein", ""], suitable:["",""],note:"" },
         { name: "Toro", role: ["Sp"], image: "Media/Toro.jpg", counter: ["FLorentino", "", ""], suitable:["",""],note:"" },
@@ -481,6 +689,7 @@
             image: "Media/Triệu Vân.jpg", 
             counter: ["Murad", "Florentino", "Ryoma","Dextra"], 
             suitable:["Bijan",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"Lên tank! Làm ơn lên tank! Đừng lên sát thương, tướng mạnh đầu game, có thể đi rừng hoặc top. Nâng max chiêu 2 trước." 
         },
         { 
@@ -489,16 +698,26 @@
             image: "Media/Tulen.jpg", 
             counter: ["Mganga", "Krixi", "Liliana", "Raz", "Lorion", "Ignis", "Zata", "Natalya", "Aoi", "Billow", "Richter", "Thane"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         //V
-        { name: "Valhein", role: ["Ad"], image: "Media/Valhein.jpg", counter: ["Fennik", "Mina", ""], suitable:["",""],note:"" },
+        { 
+            name: "Valhein", 
+            role: ["Ad"], 
+            image: "Media/Valhein.jpg", 
+            counter: ["Fennik", "Mina", "Telannas", "Terri", "Elsu"], 
+            suitable:["Grakk","Ming","Natalya","Rouie","Lorion"],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Veera", 
             role: ["Mid"], 
             image: "Media/Veera.jpg", 
             counter: ["Raz", "Liliana", "Natalya", "Skud", "Toro", "Keera","Lauriel", "Ignis"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { 
@@ -507,33 +726,79 @@
             image: "Media/Veres.jpg", 
             counter: ["Florentino", "Yena", "Airi", "Keera", "Thane", "Hayate"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Violet", role: ["Ad"], image: "Media/Violet.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Violet", 
+            role: ["Ad"], 
+            image: "Media/Violet.jpg", 
+            counter: ["Valhein", "Stuart", "Telannas"], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { name: "Volkath", role: ["Top","Jungle","Sp"], image: "Media/Volkath.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
         //W
         { name: "Wiro", role: ["Top","Sp"], image: "Media/Wiro.jpg", counter: ["Florentino", "", ""], suitable:["",""],note:"" },
-        { name: "Wisp", role: ["Ad"], image: "Media/Wisp.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Wisp", 
+            role: ["Ad"], 
+            image: "Media/Wisp.jpg", 
+            counter: ["Valhein", "Stuart", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { name: "Wonder Woman", role: ["Jungle"], image: "Media/Wonder Woman.jpg", counter: ["", "", ""], suitable:["",""],equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { name: "Wonder Woman", role: ["Jungle"], image: "Media/Wonder Woman.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
         //X
-        { name: "Xeniel", role: ["Top","Jungle"], image: "Media/Xeniel.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Xeniel", 
+            role: ["Top","Jungle"], 
+            image: "Media/Xeniel.jpg", 
+            counter: ["Maloch", "Krizzix", "Omen", "Liliana"], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         //Y
         { name: "Yan", role: ["Top","Jungle"], image: "Media/Yan.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Ybneth", role: ["Sp"], image: "Media/Ybneth.jpg", counter: ["FLorentino", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Ybneth", 
+            role: ["Sp"], 
+            image: "Media/Ybneth.jpg", 
+            counter: ["FLorentino", "Baldum", "Thane", "Maloch"], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Yena", 
             role: ["Top"], 
             image: "Media/Yena.jpg", 
             counter: ["FLorentino", "Skud", "Ryoma", "Charlotte", "Qi", "Zuka"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" },
-        { name: "Yorn", role: ["Ad"], image: "Media/Yorn.jpg", counter: ["Valhein", "Stuart", ""], suitable:["",""],note:"" },
+        { 
+            name: "Yorn", 
+            role: ["Ad"], 
+            image: "Media/Yorn.jpg", 
+            counter: ["Valhein", "Stuart", "Celica", "Elsu"], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Yue", 
             role: ["Mid"], 
             image: "Media/Yue.jpg", 
             counter: ["Iggy", "Raz", "Zata", "Tulen"], 
             suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         //Z
@@ -543,13 +808,29 @@
             image: "Media/Zata.jpg", 
             counter: ["Yue", "Lorion", "Aleister", "Raz", "Liliana"], 
             suitable:["Richter",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Zephys", role: ["Jungle"], image: "Media/Zephys.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Zill", role: ["Jungle"], image: "Media/Zill.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Zip", role: ["Sp"], image: "Media/Zip.jpg", counter: ["Ata", "", ""], suitable:["",""],note:"" },
-        { name: "Zuka", role: ["Top","Jungle"], image: "Media/Zuka.jpg", counter: ["Bijan", "Dextra", ""], suitable:["",""],note:"" }
-        ];
+        { 
+            name: "Zephys", 
+            role: ["Jungle"], 
+            image: "Media/Zephys.jpg", 
+            counter: ["Elandorr", "Wonder Woman", "Tachi"], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { name: "Zill", role: ["Jungle"], image: "Media/Zill.jpg", counter: ["", "", ""], suitable:["",""],equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { name: "Zip", role: ["Sp"], image: "Media/Zip.jpg", counter: ["Ata", "", ""], suitable:["",""],equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { name: "Zuka", role: ["Top","Jungle"], image: "Media/Zuka.jpg", counter: ["Bijan", "Dextra", ""], suitable:["",""],equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        }
+    ];
+    //=================================================
     // Lấy phần tử chứa danh sách tướng
     // Bạn có thể thay đổi ID này nếu cần
         const heroGrid = document.getElementById("heroGrid");
@@ -569,7 +850,7 @@
                 heroGrid.appendChild(card);
             });
         }
-
+        //---------------------------------
         // Hàm lọc tướng theo vai trò
         // Bạn có thể thay đổi các vai trò theo ý muốn
         function filterByRole(role) {
@@ -583,10 +864,10 @@
             // Cập nhật thông tin tướng trong popup
             document.getElementById("heroName").textContent = hero.name;
             document.getElementById("heroRole").textContent = hero.role.join(", ");
-
+            //-----------------------------
             // Cập nhật danh sách tướng counter
             const counterList = document.getElementById("heroCounter");
-            
+            //-----------------------------
             // Hình Ảnh tướng Counter
             const counterImages = document.getElementById("heroCounterImages");
             counterImages.innerHTML = "";
@@ -596,22 +877,20 @@
                     const img = document.createElement("img");
                     img.src = matched.image;
                     img.alt = name;
+                    img.title = matched.name; //Tên ảnh khi chỏ vào
                     img.style.width = "50px";
                     img.style.height = "50px";
                     img.style.borderRadius = "8px";
+                    img.style.cursor = "pointer";
+
+                    //Khi click vào Tướng counter thì mở popup hero đó
+                    img.onclick = () => openPopup(matched);
+                    //Thêm một phần tử con mới vào cuối danh sách con của một phần tử cha
                     counterImages.appendChild(img);
                 }
             });
-            // Cập nhật danh sách tướng counter
-            //counterList.innerHTML = "";
-            //hero.counter.forEach(c => {
-            //    const li = document.createElement("li");
-            //    li.textContent = c;
-            //    counterList.appendChild(li);
-            //});
 
-//======================
-            //Hình Ảnh tướng phù hợp đi cùng
+            // Hình Ảnh tướng phù hợp đi cùng
             // Cập nhật danh sách tướng hỗ trợ
             const suitableImages = document.getElementById("heroSuitableImages");
             suitableImages.innerHTML = "";
@@ -621,25 +900,57 @@
                     const img = document.createElement("img");
                     img.src = matched.image;
                     img.alt = name;
+                    img.title = matched.name; //Tên ảnh khi chỏ vào
                     img.style.width = "50px";
                     img.style.height = "50px";
                     img.style.borderRadius = "8px";
+                    img.style.cursor = "pointer";
+
+                    //Khi click vào tướng hỗ trợ thì mở popup hero đó
+                    img.onclick = () => openPopup(matched);
+                    //Thêm một phần tử con mới vào cuối danh sách con của một phần tử cha
                     suitableImages.appendChild(img);
                 }
             });
-            // Cập nhật danh sách tướng hỗ trợ
-            // Danh sách tướng phù hợp đi cùng
-            //const suitableList = document.getElementById("heroSuitable");
-            //suitableList.innerHTML = "";
-            //(hero.suitable || []).forEach(name => {
-            //    const li = document.createElement("li");
-            //    li.textContent = name;
-            //    suitableList.appendChild(li);
-            //});
+            
 
+
+            //-------------------------------
+            //Trang bị tướng
+            const equipmentContainer = document.getElementById("heroEquipments");
+            equipmentContainer.innerHTML = "";
+
+            if (hero.equipments && hero.equipments.length > 0) {
+                hero.equipments.forEach(eqName => {
+                    const eq = Equipments.find(e => e.name === eqName);
+                    if (eq) {
+                        const img = document.createElement("img");
+                        img.src = eq.image;
+                        img.alt = eq.name;
+                        img.title = eq.name; //Tên ảnh khi chỏ vào
+                        img.style.width = "50px";
+                        img.style.height = "50px";
+                        img.style.cursor = "pointer";
+                        
+                        //Thêm một phần tử con mới vào cuối danh sách con của một phần tử cha
+                        equipmentContainer.appendChild(img);
+                    }
+                });
+            } else {
+                equipmentContainer.textContent = "Chưa có gợi ý.";
+            }
+
+            //Note
             document.getElementById("heroNote").textContent = hero.note || "Chưa có ghi chú.";
             // Hiển thị popup
             document.getElementById("popup").style.display = "flex";
+            
+            // Đóng khi click ra ngoài nội dung popup
+            document.getElementById("popup").addEventListener("click", function(e) {
+                if (e.target.id === "popup") {
+                    closePopup();
+                }
+            });
         }
 
         // Hàm đóng popup
@@ -647,6 +958,7 @@
         function closePopup() {
             document.getElementById("popup").style.display = "none";
         }
+        
         // Hiển thị danh sách tướng ban đầu
         // Gọi hàm renderHeroes để hiển thị tất cả tướng khi trang được tải
         renderHeroes();
