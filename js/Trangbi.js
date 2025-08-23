@@ -983,6 +983,14 @@
             document.getElementById("equipNote").textContent = equip.note || "Chưa có ghi chú.";
             // Hiển thị popup
             document.getElementById("popup").style.display = "flex";
+
+            // Đóng khi click ra ngoài nội dung popup
+            document.getElementById("popup").addEventListener("click", function(e) {
+                if (e.target.id === "popup") {
+                    closePopup();
+                }
+            });
+
         }
 
         // Hàm đóng popup

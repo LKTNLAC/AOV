@@ -53,8 +53,8 @@
             image: "Media/Annette.jpg", 
             counter: ["", "", ""], 
             suitable:["",""],
-            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
-            note:"" 
+            equipments: ["Liệt Hỏa Hồi Huyết", "Giày Thuật Sĩ", "Mặt Nạ Berith", "Trượng Băng", "Sách Truy Hồn", "Gươm Hiền Triết"],//Trang bị gợi ý
+            note:"Bớt KS tao nha mấy con chó :)" 
         },
         { 
             name: "Aoi", 
@@ -115,8 +115,9 @@
             image: "Media/Aya.jpg", 
             counter: ["Mganga", "Maloch", "Hayate", "Tachi", "Airi", "Triệu Vân", "Florentino","Krizzix","Arum"], 
             suitable:["Maloch","Nakroth", "Athur", "Taara", "Tachi"],
-            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
-            note:"" },
+            equipments: ["Liệt Hỏa Hồi Huyết", "Sách Truy Hồn", "Trượng Băng", "Mặt Nạ Berith", "Trượng Hỗn Mang", "Sách Thánh"],//Trang bị gợi ý
+            note:"Bớt xài bộc phá ks nha con chó kia! :)" 
+        },
         { 
             name: "Azzenka", 
             role: ["Mid"], 
@@ -234,8 +235,8 @@
             image: "Media/Elsu.jpg", 
             counter: ["Slimz", "Violet", "Stuart"], 
             suitable:["Gildur","Iggy","Yue","Liliana","Heino","Điêu Thuyền"],
-            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
-            note:"" 
+            equipments: ["Giày Thuật Sĩ", "Chùy Băng Sương", "Kiếm Muramasa", "Nanh Fenrir", "Kiếm Fafnir", "Xạ Nhật Cung"],//Trang bị gợi ý
+            note:"Bắn cho chuẩn vào, Bắn tay hộ, nhớ đặt mắt" 
         },
         { 
             name: "Enzo", 
@@ -344,7 +345,15 @@
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Ishar", role: ["Mid","Sp"], image: "Media/Ishar.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Ishar", 
+            role: ["Mid","Sp"], 
+            image: "Media/Ishar.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["Liệt Hỏa Mở Trói", "Giày Thuật Sĩ", "Mặt Nạ Berith", "Trượng Hỗn Mang", "Vương Miện Hecate", "Sách Thánh"],//Trang bị gợi ý
+            note:"Mày dạy con tí nị của mày lại đi! Nó KS của t suốt" 
+        },
         //J
         { name: "Jinna", role: ["Mid"], image: "Media/Jinna.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
         //K
@@ -430,7 +439,7 @@
             image: "Media/Lorion.jpg", 
             counter: ["Natalya", "Mganga", "Zata", "Lauriel", "Liliana", "Krixi", "Aoi", "Hayate", "Toro"], 
             suitable:["",""],
-            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            equipments: ["Giày Kiên Cường", "Mặt Nạ Berith", "Băng Nhẫn Skadi", "Quả Cầu Băng Sương", "Ma Pháp Trường Bào", "Thệ Ước Carano"],//Trang bị gợi ý
             note:"" 
         },
         { name: "Lữ Bố", role: ["Top","Jungle"], image: "Media/Lữ Bố.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
@@ -595,7 +604,7 @@
             image: "Media/Skud.jpg", 
             counter: ["FLorentino", "Maloch", "Marja", "Hayate", "Wonder Woman", "Qi", "Veres"], 
             suitable:["",""],
-            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            equipments: ["Giày Phù Thủy", "Áo Choàng Thần Ra", "Ma Pháp Trường Bào", "Giáp Gaia", "Giáp Thống Khổ", "Nham Thuẫn"],//Trang bị gợi ý
             note:"" 
         },
         { 
@@ -613,7 +622,7 @@
             image: "Media/Stuart.jpg", 
             counter: ["Raz", "Erin", "Helen","Dolia","Taara","Iggy"], 
             suitable:["",""],
-            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            equipments: ["Giày Du Mục", "Thương Xuyên Phá", "Chùy Băng Sương", "Giáp Gaia", "Nanh Fenrir", "Giáp Hộ Mệnh"],//Trang bị gợi ý
             note:"" 
         },
         { 
@@ -735,7 +744,7 @@
             image: "Media/Violet.jpg", 
             counter: ["Valhein", "Stuart", "Telannas"], 
             suitable:["",""],
-            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            equipments: ["Giày Du Mục", "Thánh Kiếm", "Song Đao Bão Táp", "Thương Xuyên Phá", "Nanh Fenrir", "Giáp Hộ Mệnh"],//Trang bị gợi ý
             note:"" 
         },
         { name: "Volkath", role: ["Top","Jungle","Sp"], image: "Media/Volkath.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
@@ -944,7 +953,7 @@
             document.getElementById("heroNote").textContent = hero.note || "Chưa có ghi chú.";
             // Hiển thị popup
             document.getElementById("popup").style.display = "flex";
-            
+
             // Đóng khi click ra ngoài nội dung popup
             document.getElementById("popup").addEventListener("click", function(e) {
                 if (e.target.id === "popup") {
