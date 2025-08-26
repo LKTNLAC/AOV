@@ -172,9 +172,33 @@
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Bonnie", role: ["Mid","Sp"], image: "Media/Bonnie.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Bright", role: ["Top","Jungle","Ad"], image: "Media/Bright.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Butterfly", role: ["Jungle"], image: "Media/Butterfly.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Bonnie", 
+            role: ["Mid","Sp"], 
+            image: "Media/Bonnie.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { 
+            name: "Bright", 
+            role: ["Top","Jungle","Ad"], 
+            image: "Media/Bright.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { 
+            name: "Butterfly", 
+            role: ["Jungle"], 
+            image: "Media/Butterfly.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         //C
         { 
             name: "Capheny", 
@@ -185,12 +209,52 @@
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Celica", role: ["Ad"], image: "Media/Celica.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Charlotte", role: ["Top"], image: "Media/Charlotte.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Chaugnar", role: ["Sp","Mid"], image: "Media/Chaugnar.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Cresht", role: ["Sp"], image: "Media/Cresht.jpg", counter: ["Florentino", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Celica", 
+            role: ["Ad"], 
+            image: "Media/Celica.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { 
+            name: "Charlotte", 
+            role: ["Top"], 
+            image: "Media/Charlotte.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { 
+            name: "Chaugnar", 
+            role: ["Sp","Mid"], 
+            image: "Media/Chaugnar.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { 
+            name: "Cresht", 
+            role: ["Sp"], 
+            image: "Media/Cresht.jpg", 
+            counter: ["Florentino", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         //D
-        { name: "Darcy", role: ["Mid","Jungle"], image: "Media/Darcy.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Darcy", 
+            role: ["Mid","Jungle"], 
+            image: "Media/Darcy.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Dextra", 
             role: ["Top","Jungle","Sp"], 
@@ -228,7 +292,15 @@
             note:"" 
         },
         //E
-        { name: "Elandorr", role: ["Jungle","Ad"], image: "Media/Elandorr.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Elandorr", 
+            role: ["Jungle","Ad"], 
+            image: "Media/Elandorr.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Elsu", 
             role: ["Ad"], 
@@ -256,10 +328,26 @@
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Erin", role: ["Mid","Ad"], image: "Media/Erin.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        //{ name: "Errol", role: ["Top","Jungle"], image: "Media/Errol.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Erin", 
+            role: ["Mid","Ad"], 
+            image: "Media/Erin.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+
         //F
-        { name: "Fennik", role: ["Jungle","Ad"], image: "Media/Fennik.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Fennik", 
+            role: ["Jungle","Ad"], 
+            image: "Media/Fennik.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Florentino", 
             role: ["Top"], 
@@ -307,7 +395,15 @@
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Heino", role: ["Mid","Top","Ad"], image: "Media/Heino.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Heino", 
+            role: ["Mid","Top","Ad"], 
+            image: "Media/Heino.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Helen", 
             role: ["Sp"], 
@@ -355,9 +451,25 @@
             note:"Mày dạy con tí nị của mày lại đi! Nó KS của t suốt" 
         },
         //J
-        { name: "Jinna", role: ["Mid"], image: "Media/Jinna.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Jinna", 
+            role: ["Mid"], 
+            image: "Media/Jinna.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         //K
-        { name: "Kahlii", role: ["Mid"], image: "Media/Kahlii.png", counter: ["Dirak", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Kahlii", 
+            role: ["Mid"], 
+            image: "Media/Kahlii.png", 
+            counter: ["Dirak", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Kaine", 
             role: ["Top","Jungle","Sp"], 
@@ -367,7 +479,15 @@
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Keera", role: ["Jungle"], image: "Media/Keera.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Keera", 
+            role: ["Jungle"], 
+            image: "Media/Keera.jpg", 
+            counter: ["Skud", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "KiiGroth", 
             role: ["Top","Jungle"], 
@@ -432,7 +552,15 @@
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Lindis", role: ["Jungle","Ad"], image: "Media/Lindis.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Lindis", 
+            role: ["Jungle","Ad"], 
+            image: "Media/Lindis.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Lorion", 
             role: ["Mid"], 
@@ -442,8 +570,24 @@
             equipments: ["Giày Kiên Cường", "Mặt Nạ Berith", "Băng Nhẫn Skadi", "Quả Cầu Băng Sương", "Ma Pháp Trường Bào", "Thệ Ước Carano"],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Lữ Bố", role: ["Top","Jungle"], image: "Media/Lữ Bố.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Lumburr", role: ["Sp"], image: "Media/Lumburr.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Lữ Bố", 
+            role: ["Top","Jungle"], 
+            image: "Media/Lữ Bố.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { 
+            name: "Lumburr", 
+            role: ["Sp"], 
+            image: "Media/Lumburr.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         //M
         { 
             name: "Maloch", 
@@ -458,12 +602,18 @@
             name: "Marja", 
             role: ["Top","Jungle"], 
             image: "Media/Marja.jpg", 
-            counter: ["Ryoma", "Volkath", "Qi","Murad","Keera","Elandorr","Aleister"], 
+            counter: ["Ryoma", "Volkath", "Qi","Murad","Keera","Elandorr","Aleister","Heino"], 
             suitable:["Krizzix",""],
             equipments: ["Giày Du Mục", "Thập Tự Kiếm", "Gươm Sấm Sét", "Vương Miện Hecate", "Ma Pháp Trường Bào", "Quả Cầu Băng Sương"],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Max", role: ["Top","Sp"], image: "Media/Max.jpg", counter: ["Arum", "", ""], suitable:["",""],equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+        { 
+            name: "Max", 
+            role: ["Top","Sp"], 
+            image: "Media/Max.jpg", 
+            counter: ["Arum", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
         { 
@@ -493,7 +643,15 @@
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Moren", role: ["Ad"], image: "Media/Moren.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Moren", 
+            role: ["Ad"], 
+            image: "Media/Moren.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Murad", 
             role: ["Top","Jungle"], 
@@ -504,7 +662,15 @@
             note:"" 
         },
         //N
-        { name: "Nakroth", role: ["Jungle"], image: "Media/Nakroth.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Nakroth", 
+            role: ["Jungle"], 
+            image: "Media/Nakroth.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Natalya", 
             role: ["Mid"], 
@@ -524,7 +690,15 @@
             note:"" 
         },
         //O
-        { name: "Omega", role: ["Sp"], image: "Media/Omega.jpg", counter: ["Chaugnar", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Omega", 
+            role: ["Sp"], 
+            image: "Media/Omega.jpg", 
+            counter: ["Chaugnar", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Omen", 
             role: ["Top"], 
@@ -534,10 +708,34 @@
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Ormarr", role: ["Top","Sp"], image: "Media/Ormarr.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Ormarr", 
+            role: ["Top","Sp"], 
+            image: "Media/Ormarr.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         //P
-        { name: "Paine", role: ["Jungle","Mid"], image: "Media/Paine.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Preyta", role: ["Mid"], image: "Media/Preyta.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Paine", 
+            role: ["Jungle","Mid"], 
+            image: "Media/Paine.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { 
+            name: "Preyta", 
+            role: ["Mid"], 
+            image: "Media/Preyta.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         //Q
         { 
             name: "Qi", 
@@ -585,8 +783,24 @@
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Rourke", role: ["Jungle"], image: "Media/Rourke.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Roxie", role: ["Top","Sp"], image: "Media/Roxie.jpg", counter: ["Florentino", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Rourke", 
+            role: ["Jungle"], 
+            image: "Media/Rourke.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { 
+            name: "Roxie", 
+            role: ["Top","Sp"], 
+            image: "Media/Roxie.jpg", 
+            counter: ["Florentino", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Ryoma", 
             role: ["Top"], 
@@ -596,8 +810,24 @@
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" },
         //S
-        { name: "Sephera", role: ["Jungle","Sp"], image: "Media/Sephera.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Sinestrea", role: ["Jungle","Top"], image: "Media/Sinestrea.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Sephera", 
+            role: ["Jungle","Sp"], 
+            image: "Media/Sephera.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { 
+            name: "Sinestrea", 
+            role: ["Jungle","Top"], 
+            image: "Media/Sinestrea.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Skud", 
             role: ["Top","Jungle"], 
@@ -689,9 +919,33 @@
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "The Flash", role: ["Mid","Jungle"], image: "Media/The Flash.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
-        { name: "Thorne", role: ["Ad"], image: "Media/Thorne.jpg", counter: ["Stuart", "Valhein", ""], suitable:["",""],note:"" },
-        { name: "Toro", role: ["Sp"], image: "Media/Toro.jpg", counter: ["FLorentino", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "The Flash", 
+            role: ["Mid","Jungle"], 
+            image: "Media/The Flash.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { 
+            name: "Thorne", 
+            role: ["Ad"], 
+            image: "Media/Thorne.jpg", 
+            counter: ["Stuart", "Valhein", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
+        { 
+            name: "Toro", 
+            role: ["Sp"], 
+            image: "Media/Toro.jpg", 
+            counter: ["FLorentino", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Triệu Vân", 
             role: ["Top","Jungle","Sp"], 
@@ -747,9 +1001,25 @@
             equipments: ["Giày Du Mục", "Thánh Kiếm", "Song Đao Bão Táp", "Thương Xuyên Phá", "Nanh Fenrir", "Giáp Hộ Mệnh"],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Volkath", role: ["Top","Jungle","Sp"], image: "Media/Volkath.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Volkath", 
+            role: ["Top","Jungle","Sp"], 
+            image: "Media/Volkath.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         //W
-        { name: "Wiro", role: ["Top","Sp"], image: "Media/Wiro.jpg", counter: ["Florentino", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Wiro", 
+            role: ["Top","Sp"], 
+            image: "Media/Wiro.jpg", 
+            counter: ["Florentino", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Wisp", 
             role: ["Ad"], 
@@ -759,10 +1029,15 @@
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Wonder Woman", role: ["Jungle"], image: "Media/Wonder Woman.jpg", counter: ["", "", ""], suitable:["",""],equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+        { 
+            name: "Wonder Woman", 
+            role: ["Jungle"], 
+            image: "Media/Wonder Woman.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Wonder Woman", role: ["Jungle"], image: "Media/Wonder Woman.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
         //X
         { 
             name: "Xeniel", 
@@ -774,7 +1049,15 @@
             note:"" 
         },
         //Y
-        { name: "Yan", role: ["Top","Jungle"], image: "Media/Yan.jpg", counter: ["", "", ""], suitable:["",""],note:"" },
+        { 
+            name: "Yan", 
+            role: ["Top","Jungle"], 
+            image: "Media/Yan.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            note:"" 
+        },
         { 
             name: "Ybneth", 
             role: ["Sp"], 
@@ -829,13 +1112,31 @@
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Zill", role: ["Jungle"], image: "Media/Zill.jpg", counter: ["", "", ""], suitable:["",""],equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+        { 
+            name: "Zill", 
+            role: ["Jungle"], 
+            image: "Media/Zill.jpg", 
+            counter: ["", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Zip", role: ["Sp"], image: "Media/Zip.jpg", counter: ["Ata", "", ""], suitable:["",""],equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+        { 
+            name: "Zip", 
+            role: ["Sp"], 
+            image: "Media/Zip.jpg", 
+            counter: ["Ata", "", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
-        { name: "Zuka", role: ["Top","Jungle"], image: "Media/Zuka.jpg", counter: ["Bijan", "Dextra", ""], suitable:["",""],equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+        { 
+            name: "Zuka", 
+            role: ["Top","Jungle"], 
+            image: "Media/Zuka.jpg", 
+            counter: ["Bijan", "Dextra", ""], 
+            suitable:["",""],
+            equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         }
     ];
