@@ -566,7 +566,7 @@
             role: ["Mid"], 
             image: "Media/Lorion.jpg", 
             counter: ["Natalya", "Mganga", "Zata", "Lauriel", "Liliana", "Krixi", "Aoi", "Hayate", "Toro"], 
-            suitable:["",""],
+            suitable:["Krizzik","Hayate"],
             equipments: ["Giày Kiên Cường", "Mặt Nạ Berith", "Băng Nhẫn Skadi", "Quả Cầu Băng Sương", "Ma Pháp Trường Bào", "Thệ Ước Carano"],//Trang bị gợi ý
             note:"" 
         },
@@ -594,7 +594,7 @@
             role: ["Top","Mid","Sp"], 
             image: "Media/Maloch.jpg", 
             counter: ["Thane", "Krizzix", "Baldum"], 
-            suitable:["",""],
+            suitable:["Aya","Dolia"],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
@@ -630,7 +630,7 @@
             role: ["Top","Sp"], 
             image: "Media/Mina.png", 
             counter: ["Florentino", "Krixi", "Natalya"], 
-            suitable:["",""],
+            suitable:["Ybneth",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
@@ -638,8 +638,8 @@
             name: "Ming", 
             role: ["Sp"], 
             image: "Media/Ming.jpg", 
-            counter: ["Liliana", "", ""], 
-            suitable:["",""],
+            counter: ["Liliana", "Heino", "Natalya"], 
+            suitable:["Valhein","Capheny"],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
@@ -823,7 +823,7 @@
             name: "Sinestrea", 
             role: ["Jungle","Top"], 
             image: "Media/Sinestrea.jpg", 
-            counter: ["", "", ""], 
+            counter: ["Fennik", "Krizzik", "Raz","Paine"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
@@ -932,7 +932,7 @@
             name: "Thorne", 
             role: ["Ad"], 
             image: "Media/Thorne.jpg", 
-            counter: ["Stuart", "Valhein", ""], 
+            counter: ["Stuart", "Valhein", "Telannas", "Heino"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
@@ -969,7 +969,7 @@
             name: "Valhein", 
             role: ["Ad"], 
             image: "Media/Valhein.jpg", 
-            counter: ["Fennik", "Mina", "Telannas", "Terri", "Elsu"], 
+            counter: ["Fennik", "Mina", "Telannas", "Terri", "Elsu", "Heino", "Stuart"], 
             suitable:["Grakk","Ming","Natalya","Rouie","Lorion"],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
@@ -979,7 +979,7 @@
             role: ["Mid"], 
             image: "Media/Veera.jpg", 
             counter: ["Raz", "Liliana", "Natalya", "Skud", "Toro", "Keera","Lauriel", "Ignis"], 
-            suitable:["",""],
+            suitable:["Grakk","Enzo"],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             note:"" 
         },
