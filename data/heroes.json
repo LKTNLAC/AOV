@@ -1,0 +1,23 @@
+[
+ {
+    "_comment": "Nội dung thông tin tướng"
+ },
+ {
+    "id": 1,
+    "name": "Airi",
+    "image": "Media/Airi.jpg",
+    "lane": ["Top", "Jungle"],
+    "difficulty": 4,
+    "damageType": "Physical",
+    "attackType": "Melee",
+    "meta": 86,
+    "early": 75,
+    "mid": 88,
+    "late": 94,
+    "frontline": 30,
+    "mobility": 95,
+    "burst": 88,
+    "cc": 35,
+    "waveClear": 72
+}
+]

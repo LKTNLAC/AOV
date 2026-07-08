@@ -1,0 +1,17 @@
+{
+    "Airi": {
+        "primary": "Top",
+        "secondary": "Jungle",
+        "class": "Warrior"
+    },
+
+    "Murad": {
+        "primary": "Jungle",
+        "class": "Assassin"
+    },
+
+    "Aya": {
+        "primary": "Support",
+        "class": "Support"
+    }
+}

@@ -1,0 +1,55 @@
+{
+  "rank":[
+
+    {"team":"blue","action":"ban","count":5},
+
+    {"team":"red","action":"ban","count":5},
+
+    {"team":"blue","action":"pick","count":1},
+
+    {"team":"red","action":"pick","count":2},
+
+    {"team":"blue","action":"pick","count":2},
+
+    {"team":"red","action":"pick","count":2},
+
+    {"team":"blue","action":"pick","count":2},
+
+    {"team":"red","action":"pick","count":1}
+
+  ],
+
+  "tournament":[
+
+    {"team":"blue","action":"ban","count":1},
+
+    {"team":"red","action":"ban","count":1},
+
+    {"team":"blue","action":"ban","count":1},
+
+    {"team":"red","action":"ban","count":1},
+
+    {"team":"blue","action":"pick","count":1},
+
+    {"team":"red","action":"pick","count":2},
+
+    {"team":"blue","action":"pick","count":2},
+
+    {"team":"red","action":"pick","count":1},
+
+    {"team":"blue","action":"ban","count":1},
+
+    {"team":"red","action":"ban","count":1},
+
+    {"team":"blue","action":"ban","count":1},
+
+    {"team":"red","action":"ban","count":1},
+
+    {"team":"red","action":"pick","count":1},
+
+    {"team":"blue","action":"pick","count":2},
+
+    {"team":"red","action":"pick","count":1}
+
+  ]
+}

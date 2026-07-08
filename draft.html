@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AOV Draft Assistant</title>
+
+    <link rel="stylesheet" href="draft.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+
+        <h1>Arena of Valor Draft Assistant</h1>
+
+        <span id="patchVersion">Patch SS39</span>
+
+    </div>
+
+    <div class="mode">
+
+        <label>
+
+            <input
+                type="radio"
+                name="mode"
+                value="rank"
+                checked>
+
+            Rank
+
+        </label>
+
+        <label>
+
+            <input
+                type="radio"
+                name="mode"
+                value="tournament">
+
+            Tournament
+
+        </label>
+
+    </div>
+
+</header>
+
+<main>
+
+    <!-- BLUE -->
+
+    <section class="team blue">
+
+        <h2>BLUE TEAM</h2>
+
+        <div class="ban-phase">
+
+            <h3>Ban Phase 1</h3>
+
+            <div id="blueBan1" class="hero-grid"></div>
+
+        </div>
+
+        <div class="pick-phase">
+
+            <h3>Pick</h3>
+
+            <div id="bluePick" class="hero-grid"></div>
+
+        </div>
+
+        <div class="ban-phase">
+
+            <h3>Ban Phase 2</h3>
+
+            <div id="blueBan2" class="hero-grid"></div>
+
+        </div>
+
+    </section>
+
+    <!-- CENTER -->
+
+    <section class="center">
+
+        <div class="turn">
+
+            <h2>Current Turn</h2>
+
+            <h3 id="turnText">
+
+                Blue Ban
+
+            </h3>
+
+            <p id="turnCount">
+
+                1 / 5
+
+            </p>
+
+        </div>
+
+        <div class="recommendation">
+
+            <h2>
+
+                Recommendation
+
+            </h2>
+
+            <div id="recommendList">
+
+            </div>
+
+        </div>
+
+        <div class="analysis">
+
+            <h2>
+
+                Team Analysis
+
+            </h2>
+
+            <canvas id="radarChart">
+
+            </canvas>
+
+        </div>
+
+        <div class="simulation">
+
+            <h2>
+
+                Win Prediction
+
+            </h2>
+
+            <p>
+
+                Blue
+
+                <span id="blueRate">
+
+                    50%
+
+                </span>
+
+            </p>
+
+            <p>
+
+                Red
+
+                <span id="redRate">
+
+                    50%
+
+                </span>
+
+            </p>
+
+        </div>
+
+        <div class="buttons">
+
+            <button id="undoBtn">
+
+                Undo
+
+            </button>
+
+            <button id="resetBtn">
+
+                Reset
+
+            </button>
+
+            <button id="evaluateBtn">
+
+                Evaluate
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- RED -->
+
+    <section class="team red">
+
+        <h2>RED TEAM</h2>
+
+        <div class="ban-phase">
+
+            <h3>Ban Phase 1</h3>
+
+            <div id="redBan1" class="hero-grid"></div>
+
+        </div>
+
+        <div class="pick-phase">
+
+            <h3>Pick</h3>
+
+            <div id="redPick" class="hero-grid"></div>
+
+        </div>
+
+        <div class="ban-phase">
+
+            <h3>Ban Phase 2</h3>
+
+            <div id="redBan2" class="hero-grid"></div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<!-- Popup -->
+
+<div id="heroPopup" class="popup hidden">
+
+    <div class="popup-content">
+
+        <input
+
+            id="heroSearch"
+
+            type="text"
+
+            placeholder="Tìm tướng..."
+
+        >
+
+        <div id="heroList">
+
+        </div>
+
+    </div>
+
+</div>
+
+<script type="module" src="js/draft.js"></script>
+
+</body>
+
+</html>
