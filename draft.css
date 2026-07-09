@@ -269,3 +269,48 @@ button{
     color:#94A3B8;
 
 }
+.phase-analysis{
+
+    margin-top:20px;
+
+}
+
+.phase-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin:8px 0;
+
+}
+
+.phase-item progress{
+
+    flex:1;
+
+    height:10px;
+
+}
+.weakness{
+
+    margin-top:20px;
+
+}
+
+.weakness ul{
+
+    margin:0;
+    padding-left:18px;
+
+}
+
+.weakness li{
+
+    margin:4px 0;
+
+    color:#FBBF24;
+
+}

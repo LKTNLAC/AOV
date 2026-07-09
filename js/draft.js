@@ -18,6 +18,9 @@ import {
     initPopup,
     openPopup
 } from "./popup.js";
+import { predictDraft } from "./predictionEngine.js";
+import { analyzeTeam, analyzeWeakness } from "./teamAnalyzer.js";
+
 
 async function init() {
 
@@ -99,6 +102,12 @@ function render() {
     renderTurn();
 
     renderRecommendation();
+
+    renderPrediction();
+
+    renderPhaseAnalysis();
+
+    renderWeakness();
 
 }
 function renderBoard() {
@@ -268,6 +277,91 @@ function renderRecommendGroup(containerId,list){
         `;
 
         container.appendChild(div);
+
+    });
+
+}
+function renderPrediction(){
+
+    const result = predictDraft();
+
+    document.getElementById("blueRate").textContent =
+        result.blue + "%";
+
+    document.getElementById("redRate").textContent =
+        result.red + "%";
+
+}
+function renderPhaseAnalysis(){
+
+    const blue = analyzeTeam("blue");
+
+    const red = analyzeTeam("red");
+
+    updatePhase(
+        "Early",
+        blue.early,
+        red.early
+    );
+
+    updatePhase(
+        "Mid",
+        blue.mid,
+        red.mid
+    );
+
+    updatePhase(
+        "Late",
+        blue.late,
+        red.late
+    );
+
+}
+function updatePhase(name, blue, red){
+
+    document.getElementById("blue"+name).value = blue;
+
+    document.getElementById("red"+name).value = red;
+
+    document.getElementById("blue"+name+"Text").textContent =
+        Math.round(blue);
+
+    document.getElementById("red"+name+"Text").textContent =
+        Math.round(red);
+
+}
+function renderWeakness(){
+
+    renderWeaknessList(
+
+        "blueWeakness",
+
+        analyzeWeakness("blue")
+
+    );
+
+    renderWeaknessList(
+
+        "redWeakness",
+
+        analyzeWeakness("red")
+
+    );
+
+}
+function renderWeaknessList(id,list){
+
+    const ul=document.getElementById(id);
+
+    ul.innerHTML="";
+
+    list.forEach(item=>{
+
+        const li=document.createElement("li");
+
+        li.textContent=item;
+
+        ul.appendChild(li);
 
     });
 
