@@ -118,7 +118,55 @@
 
             </h2>
 
-            <div id="recommendList">
+            <div id="recommendationContainer">
+
+                <div class="recommend-group">
+
+                    <h3>Overall</h3>
+
+                    <div id="recommendOverall"></div>
+
+                </div>
+
+                <div class="recommend-group">
+
+                    <h3>Top</h3>
+
+                    <div id="recommendTop"></div>
+
+                </div>
+
+                <div class="recommend-group">
+
+                    <h3>Jungle</h3>
+
+                    <div id="recommendJungle"></div>
+
+                </div>
+
+                <div class="recommend-group">
+
+                    <h3>Mid</h3>
+
+                    <div id="recommendMid"></div>
+
+                </div>
+
+                <div class="recommend-group">
+
+                    <h3>ADC</h3>
+
+                    <div id="recommendADC"></div>
+
+                </div>
+
+                <div class="recommend-group">
+
+                    <h3>Support</h3>
+
+                    <div id="recommendSupport"></div>
+
+                </div>
 
             </div>
 
@@ -245,6 +293,21 @@
             placeholder="Tìm tướng..."
 
         >
+        <select id="laneFilter">
+
+            <option value="">Tất cả</option>
+
+            <option value="Top">Top</option>
+
+            <option value="Jungle">Jungle</option>
+
+            <option value="Mid">Mid</option>
+
+            <option value="ADC">ADC</option>
+
+            <option value="Support">Support</option>
+
+        </select>
 
         <div id="heroList">
 

@@ -1,23 +1,29 @@
 import DraftState from "./state.js";
 
-async function loadJson(path){
+export async function loadData() {
 
-    const res = await fetch(path);
+    const [
+        heroes,
+        counters,
+        synergies,
+        draftModes
+    ] = await Promise.all([
+        fetch("data/heroes.json").then(r => r.json()),
+        fetch("data/counter.json").then(r => r.json()),
+        fetch("data/synergy.json").then(r => r.json()),
+        fetch("data/draftModes.json").then(r => r.json())
+    ]);
 
-    return await res.json();
+    DraftState.heroes = heroes;
+    DraftState.counters = counters;
+    DraftState.synergies = synergies;
+    DraftState.draftModes = draftModes;
 
-}
+    // Tạo Map để tra cứu hero nhanh
+    DraftState.heroMap = new Map();
 
-export async function initializeData(){
-
-    DraftState.heroes = await loadJson("data/heroes.json");
-
-    DraftState.counters = await loadJson("data/counters.json");
-
-    DraftState.synergies = await loadJson("data/synergies.json");
-
-    DraftState.heroClasses = await loadJson("data/heroClasses.json");
-
-    DraftState.patch = await loadJson("data/patch.json");
+    heroes.forEach(hero => {
+        DraftState.heroMap.set(hero.id, hero);
+    });
 
 }
