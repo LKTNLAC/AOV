@@ -314,3 +314,66 @@ button{
     color:#FBBF24;
 
 }
+.team-dashboard{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:20px;
+
+    margin-top:20px;
+
+}
+
+.dashboard-team{
+
+    background:#1E293B;
+
+    padding:15px;
+
+    border-radius:12px;
+
+}
+
+.blue-title{
+
+    color:#60A5FA;
+
+}
+
+.red-title{
+
+    color:#F87171;
+
+}
+
+.analysis-tag{
+
+    display:inline-block;
+
+    padding:6px 12px;
+
+    border-radius:20px;
+
+    margin:4px;
+
+    font-size:13px;
+
+}
+
+.analysis-good{
+
+    background:#14532D;
+
+    color:#DCFCE7;
+
+}
+
+.analysis-bad{
+
+    background:#7F1D1D;
+
+    color:#FECACA;
+
+}

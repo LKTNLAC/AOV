@@ -124,9 +124,22 @@ function getEnemyTeam(team) {
 }
 function calculateHero(hero, team){
 
-    let score = 0;
+    let score = hero.meta;
 
     const reasons = [];
+    const metaScore = calculateMeta(hero);
+
+    score += metaScore;
+
+    reasons.push({
+
+        type: "meta",
+
+        text: "Meta mạnh",
+
+        value: metaScore
+
+    });
 
     score += calculateMetaScore(hero, reasons);
 

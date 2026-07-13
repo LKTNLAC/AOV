@@ -109,6 +109,8 @@ function render() {
 
     renderWeakness();
 
+    renderDashboard();
+
 }
 function renderBoard() {
 
@@ -362,6 +364,75 @@ function renderWeaknessList(id,list){
         li.textContent=item;
 
         ul.appendChild(li);
+
+    });
+
+}
+
+function renderDashboard(){
+
+    renderTagList(
+
+        "blueStrength",
+
+        analyzeStrength("blue"),
+
+        true
+
+    );
+
+    renderTagList(
+
+        "blueWeakness",
+
+        analyzeWeakness("blue"),
+
+        false
+
+    );
+
+    renderTagList(
+
+        "redStrength",
+
+        analyzeStrength("red"),
+
+        true
+
+    );
+
+    renderTagList(
+
+        "redWeakness",
+
+        analyzeWeakness("red"),
+
+        false
+
+    );
+
+}
+function renderTagList(id,list,isGood){
+
+    const container=document.getElementById(id);
+
+    container.innerHTML="";
+
+    list.forEach(text=>{
+
+        const span=document.createElement("span");
+
+        span.className=
+
+            isGood
+
+            ? "analysis-tag analysis-good"
+
+            : "analysis-tag analysis-bad";
+
+        span.textContent=text;
+
+        container.appendChild(span);
 
     });
 
