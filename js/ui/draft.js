@@ -34,6 +34,8 @@ async function init() {
 
     render();
 
+    initRadar();
+
 }
 
 init();
@@ -110,6 +112,8 @@ function render() {
     renderWeakness();
 
     renderDashboard();
+
+    updateRadar();
 
 }
 function renderBoard() {
@@ -437,3 +441,12 @@ function renderTagList(id,list,isGood){
     });
 
 }
+import{
+
+    initRadar,
+
+    updateRadar
+
+}
+from "radarChart.js";
+

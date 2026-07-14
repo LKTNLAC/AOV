@@ -124,46 +124,62 @@ function getEnemyTeam(team) {
 }
 function calculateHero(hero, team){
 
-    let score = hero.meta;
+    let score = 0;
 
     const reasons = [];
-    const metaScore = calculateMeta(hero);
 
+    // ===== Meta =====
+    const metaScore = calculateMetaScore(hero);
     score += metaScore;
 
     reasons.push({
-
         type: "meta",
-
         text: "Meta mạnh",
-
         value: metaScore
-
     });
 
-    score += calculateMetaScore(hero, reasons);
+    // ===== Counter =====
+    const counter = calculateCounterScore(hero, team);
 
-    score += calculateCounterScore(hero, team, reasons);
+    score += counter.score;
 
-    score += calculateSynergyScore(hero, team, reasons);
+    counter.reasons.forEach(r => reasons.push(r));
 
-    score += calculateRoleScore(hero, team, reasons);
+    // ===== Synergy =====
+    const synergy = calculateSynergyScore(hero, team);
 
-    score += calculatePhaseScore(hero, team, reasons);
+    score += synergy.score;
 
-    score += calculateAttributeScore(hero, team, reasons);
+    synergy.reasons.forEach(r => reasons.push(r));
 
-    score += calculateTeamBalance(hero,team,reasons);
+    // ===== Team Balance =====
+    const balance = calculateTeamBalance(hero, team);
 
-    score += calculatePenalty(hero,team,reasons);
+    score += balance.score;
+
+    balance.reasons.forEach(r => reasons.push(r));
+
+    // ===== Phase =====
+    const phase = calculatePhaseScore(hero, team);
+
+    score += phase.score;
+
+    phase.reasons.forEach(r => reasons.push(r));
+
+    // ===== Attribute =====
+    const attr = calculateAttributeScore(hero, team);
+
+    score += attr.score;
+
+    attr.reasons.forEach(r => reasons.push(r));
 
     return {
 
         hero,
 
-        score: Number(score.toFixed(2)),
+        score: Number(score.toFixed(1)),
 
-        reasons
+        reasons: reasons.sort((a,b)=>b.value-a.value)
 
     };
 
@@ -187,33 +203,41 @@ function calculateMetaScore(hero,reasons){
     return score;
 
 }
-function calculateCounterScore(hero,team,reasons){
-
-    const enemy = getEnemyTeam(team);
+function calculateCounterScore(hero,team){
 
     let score = 0;
 
-    enemy.picks.forEach(heroId=>{
+    const reasons = [];
 
-        if(heroId===null) return;
+    enemyHeroes.forEach(enemy=>{
 
-        const enemyHero = DraftState.heroMap.get(heroId);
+        const value = getCounter(hero.id, enemy.id);
 
-        if(!enemyHero) return;
+        if(value !== 0){
 
-        const counter = DraftState.counters[enemyHero.name];
+            score += value;
 
-        if(counter && counter[hero.name]){
+            reasons.push({
 
-            score += counter[hero.name];
+                type: "counter",
 
-            reasons.push("Counter "+enemyHero.name);
+                text: `Counter ${enemy.name}`,
+
+                value
+
+            });
 
         }
 
     });
 
-    return score * 0.25;
+    return {
+
+        score,
+
+        reasons
+
+    };
 
 }
 function calculateSynergyScore(hero,team,reasons){
@@ -242,7 +266,13 @@ function calculateSynergyScore(hero,team,reasons){
 
     });
 
-    return score * 0.20;
+    return{
+
+        score,
+
+        reasons
+
+    };
 
 }
 function calculateRoleScore(hero,team,reasons){
