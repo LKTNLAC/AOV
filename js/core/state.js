@@ -1,43 +1,45 @@
-const DraftState={
+const DraftState = {
 
-    heroes:[],
+    // Data
+    heroes: [],
+    heroMap: new Map(),
 
-    counters:{},
+    counters: {},
+    synergies: {},
+    meta: {},
 
-    synergies:{},
+    // Draft
+    draft: {
 
-    meta:{},
+        mode: "rank",
 
-    draftModes:{},
+        currentStep: 0,
 
-    blue:{
+        currentTeam: "blue",
 
-        bans:[null,null,null,null,null],
+        currentAction: "ban",
 
-        picks:[null,null,null,null,null]
-
-    },
-
-    red:{
-
-        bans:[null,null,null,null,null],
-
-        picks:[null,null,null,null,null]
+        history: []
 
     },
 
-    draft:{
+    // Team
+    blue: {
 
-        mode:"rank",
+        bans: [null, null, null, null, null],
 
-        currentStep:0,
+        picks: [null, null, null, null, null]
 
-        currentAction:0,
+    },
 
-        history:[]
+    red: {
+
+        bans: [null, null, null, null, null],
+
+        picks: [null, null, null, null, null]
 
     }
 
-}
+};
 
 export default DraftState;

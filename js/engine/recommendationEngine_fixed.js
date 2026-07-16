@@ -167,7 +167,7 @@ function calculateMetaScore(hero){
     const result = createResult();
 
     // Meta chiếm khoảng 30% tổng điểm
-    const score = hero.meta * 0.3;
+    const score = hero.meta * CONFIG.WEIGHTS.META;
 
     addReason(
         result,
@@ -303,7 +303,7 @@ function calculateTeamBalanceScore(hero,team){
 
     const stats=analyzeTeam(team);
 
-    if(stats.frontline<50 && hero.frontline>=70){
+    if(stats.frontline<50 && hero.frontline>=CONFIG.BONUS.NEED_FRONTLINE){
 
         addReason(
 
@@ -313,7 +313,7 @@ function calculateTeamBalanceScore(hero,team){
 
             "Đội thiếu Frontline",
 
-            12
+            CONFIG.BONUS.NEED_FRONTLINE
 
         );
 
