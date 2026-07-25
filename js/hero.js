@@ -676,18 +676,20 @@
             name: "Lữ Bố", 
             role: ["Top","Jungle"], 
             image: "Media/Lữ Bố.jpg", 
-            counter: ["", "", ""], 
+            counter: ["Marja", "Florentino", ""], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "E", // Tier của tướng
             note:"" 
         },
         { 
             name: "Lumburr", 
             role: ["Sp"], 
             image: "Media/Lumburr.jpg", 
-            counter: ["", "", ""], 
+            counter: ["Annette", "Chaugnar", ""], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "C", // Tier của tướng
             note:"" 
         },
         //M
@@ -695,9 +697,10 @@
             name: "Maloch", 
             role: ["Top","Mid","Sp"], 
             image: "Media/Maloch.jpg", 
-            counter: ["Thane", "Krizzix", "Baldum"], 
+            counter: ["Marja","Thane", "Krizzix", "Baldum"], 
             suitable:["Aya","Dolia"],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "E", // Tier của tướng
             note:"" 
         },
         { 
@@ -707,60 +710,67 @@
             counter: ["Ryoma", "Volkath", "Qi","Murad","Keera","Elandorr","Aleister","Heino"], 
             suitable:["Krizzix",""],
             equipments: ["Giày Du Mục", "Thập Tự Kiếm", "Gươm Sấm Sét", "Vương Miện Hecate", "Ma Pháp Trường Bào", "Quả Cầu Băng Sương"],//Trang bị gợi ý
+            tier: "S", // Tier của tướng
             note:"" 
         },
         { 
             name: "Max", 
             role: ["Top","Sp"], 
             image: "Media/Max.jpg", 
-            counter: ["Arum", "", ""], 
+            counter: ["Arum", "Dolia", "Teemee"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "E", // Tier của tướng
             note:"" 
         },
         { 
             name: "Mganga", 
             role: ["Mid","Sp"], 
             image: "Media/Mganga.jpg", 
-            counter: ["Ignis", "Enzo", "Natalya", "Fennik", "Florentino", "Zata", "Lauriel"], 
+            counter: ["Flowborn Mid", "Iggy", "Ignis", "Enzo", "Natalya", "Fennik", "Florentino", "Zata", "Lauriel"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "D", // Tier của tướng
             note:"" 
         },
         { 
             name: "Mina", 
             role: ["Top","Sp"], 
             image: "Media/Mina.png", 
-            counter: ["Florentino", "Krixi", "Natalya"], 
+            counter: ["Chaugnar", "Triệu Vân", "Florentino", "Krixi", "Natalya"], 
             suitable:["Ybneth",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "C", // Tier của tướng
             note:"" 
         },
         { 
             name: "Ming", 
             role: ["Sp"], 
             image: "Media/Ming.jpg", 
-            counter: ["Liliana", "Heino", "Natalya"], 
+            counter: ["Baldum", "Grakk", "Liliana", "Heino", "Natalya"], 
             suitable:["Valhein","Capheny"],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "D", // Tier của tướng
             note:"" 
         },
         { 
             name: "Moren", 
             role: ["Ad"], 
             image: "Media/Moren.jpg", 
-            counter: ["", "", ""], 
+            counter: ["Stuart", "Fennik", ""], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "B", // Tier của tướng
             note:"" 
         },
         { 
             name: "Murad", 
             role: ["Top","Jungle"], 
             image: "Media/Murad.jpg", 
-            counter: ["Qi", "Omen", "Ryoma", "Raz", "Ybneth", "Gildur", "Mina", "Alice"], 
+            counter: ["Bijan", "Arthur", "Qi", "Omen", "Ryoma", "Raz", "Ybneth", "Gildur", "Mina", "Alice"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "A", // Tier của tướng
             note:"" 
         },
         //N
