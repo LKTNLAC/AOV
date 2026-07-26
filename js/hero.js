@@ -27,7 +27,7 @@
             role: ["Sp"], 
             image: "Media/Alice.png", 
             counter: ["Lorion","Zata","Elandorr", "Raz", "Fennik"], 
-            suitable:["Fennik","Telannas","Yorn"],
+            suitable:["Dolia","Arthur","Fennik","Telannas","Yorn"],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             tier: "B", // Tier của tướng
             note: "Alice là một hỗ trợ mạnh với khả năng bảo vệ đồng đội và khống chế kẻ địch, nhưng cần phải cẩn thận với những tướng có khả năng áp sát nhanh." 
@@ -57,7 +57,7 @@
             role: ["Mid","Sp"], 
             image: "Media/Annette.jpg", 
             counter: ["Yue", "Flowborn Mid", ""], 
-            suitable:["",""],
+            suitable:["Dolia",""],
             equipments: ["Liệt Hỏa Hồi Huyết", "Giày Thuật Sĩ", "Mặt Nạ Berith", "Trượng Băng", "Sách Truy Hồn", "Gươm Hiền Triết"],//Trang bị gợi ý
             tier: "D", // Tier của tướng
             note:"Bớt KS tao nha mấy con chó :)" 
@@ -87,7 +87,7 @@
             role: ["Top","Sp"], 
             image: "Media/Arthur.jpg", 
             counter: ["Marja","Bijan", "Florentino", "Maloch","Tachi","Hayate","Triệu Vân","Điêu Thuyền","Aleister"], 
-            suitable:["",""],
+            suitable:["Aya","Alice"],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             tier: "A", // Tier của tướng
             note:"Nâng max chiêu 2" 
@@ -183,9 +183,9 @@
         },
         { 
             name: "Bolt Baron", 
-            role: ["Top","Jungle"], 
+            role: ["Top","Jungle","Ad"], 
             image: "Media/Bolt Baron.jpg", 
-            counter: ["Enzo", "Natalya", "FLorentino", "Marja", "Liliana", "Keera", "Tachi"], 
+            counter: ["Enzo", "Natalya", "FLorentino", "Marja", "Liliana", "Keera", "Tachi", "Hayate", "Flowborn Ad"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             tier: "C", // Tier của tướng
@@ -206,7 +206,7 @@
             role: ["Top","Jungle","Ad"], 
             image: "Media/Bright.jpg", 
             counter: ["Valhein", "Elsu", ""], 
-            suitable:["",""],
+            suitable:["Zip",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             tier: "D", // Tier của tướng
             note:"" 
@@ -298,7 +298,7 @@
             role: ["Mid","Sp"], 
             image: "Media/Điêu Thuyền.jpg", 
             counter: ["Flowborn Mid","Yena", "Iggy", "Yue","Lorion","Florentino"], 
-            suitable:["Krizzix","Grak","Enzo","Gildur"],
+            suitable:["Krizzix","Grak","Enzo","Gildur","Bonnie","Dolia"],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             tier: "D", // Tier của tướng
             note:"" 
@@ -318,7 +318,7 @@
             role: ["Mid","Sp"], 
             image: "Media/Dolia.jpg", 
             counter: ["Raz", "Liliana", "Lorion","Grakk","Enzo"], 
-            suitable:["Maloch","Ilumia","Kahlii","Tachi","Stuart","Wonder Woman","Volkath"],
+            suitable:["Maloch","Alice","Ilumia","Kahlii","Tachi","Stuart","Wonder Woman","Volkath"],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             tier: "B", // Tier của tướng
             note:"" 
@@ -336,9 +336,9 @@
         //E
         { 
             name: "Edras", 
-            role: ["Top","Jungle"], 
+            role: ["Top","Jungle", "Ad"], 
             image: "Media/Edras.jpg", 
-            counter: ["Keera", "Marja", ""], 
+            counter: ["Keera", "Marja", "Flowborn Ad", "Elandorr"], 
             suitable:["Bijan",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             tier: "C", // Tier của tướng
@@ -349,7 +349,7 @@
             role: ["Jungle","Ad"], 
             image: "Media/Elandorr.jpg", 
             counter: ["Kaine", "Ngộ Không", ""], 
-            suitable:["",""],
+            suitable:["Rouie",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             tier: "B", // Tier của tướng
             note:"" 
@@ -473,7 +473,7 @@
             role: ["Ad"], 
             image: "Media/Hayate.jpg", 
             counter: ["Elandorr", "Capheny", "Valhein", "Stuart", "Violet"], 
-            suitable:["",""],
+            suitable:["Mina","Krizzik","Grak"],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             tier: "B", // Tier của tướng
             note:"" 
@@ -627,7 +627,7 @@
             role: ["Mid"], 
             image: "Media/Lauriel.jpg", 
             counter: ["Natalya", "Zata", "Liliana", "Aleister", "Arum", "Keera", "Violet", "Roxie"], 
-            suitable:["",""],
+            suitable:["Aya",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             tier: "D", // Tier của tướng
             note:"" 
@@ -667,7 +667,7 @@
             role: ["Mid"], 
             image: "Media/Lorion.jpg", 
             counter: ["Natalya", "Mganga", "Zata", "Lauriel", "Liliana", "Krixi", "Aoi", "Hayate", "Toro"], 
-            suitable:["Krizzik","Hayate"],
+            suitable:["Krizzik", "Hayate", "Aya"],
             equipments: ["Giày Kiên Cường", "Mặt Nạ Berith", "Băng Nhẫn Skadi", "Quả Cầu Băng Sương", "Ma Pháp Trường Bào", "Thệ Ước Carano"],//Trang bị gợi ý
             tier: "A", // Tier của tướng
             note:"" 
@@ -705,9 +705,9 @@
         },
         { 
             name: "Marja", 
-            role: ["Top","Jungle"], 
+            role: ["Top","Jungle","Ad"], 
             image: "Media/Marja.jpg", 
-            counter: ["Ryoma", "Volkath", "Qi","Murad","Keera","Elandorr","Aleister","Heino"], 
+            counter: ["Ryoma", "Volkath", "Qi","Murad","Keera","Elandorr","Aleister","Heino", "Hayate", "Flowborn Ad"], 
             suitable:["Krizzix",""],
             equipments: ["Giày Du Mục", "Thập Tự Kiếm", "Gươm Sấm Sét", "Vương Miện Hecate", "Ma Pháp Trường Bào", "Quả Cầu Băng Sương"],//Trang bị gợi ý
             tier: "S", // Tier của tướng
@@ -767,7 +767,7 @@
             name: "Murad", 
             role: ["Top","Jungle"], 
             image: "Media/Murad.jpg", 
-            counter: ["Bijan", "Arthur", "Qi", "Omen", "Ryoma", "Raz", "Ybneth", "Gildur", "Mina", "Alice"], 
+            counter: ["Bijan", "Arthur", "Qi", "Omen", "Ryoma", "Raz", "Ybneth", "Gildur", "Mina", "Alice", "Stuart", "Elandorr"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             tier: "A", // Tier của tướng
@@ -778,27 +778,30 @@
             name: "Nakroth", 
             role: ["Jungle"], 
             image: "Media/Nakroth.jpg", 
-            counter: ["", "", ""], 
-            suitable:["",""],
+            counter: ["Sinestrea", "Keera", ""], 
+            suitable:["Aya",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "B", // Tier của tướng
             note:"" 
         },
         { 
             name: "Natalya", 
             role: ["Mid"], 
             image: "Media/Natalya.jpg", 
-            counter: ["Ignis", "Liliana", "Florentino", "Baldum","Lauriel"], 
+            counter: ["Flowborn Mid", "Yue", "Ignis", "Liliana", "Florentino", "Baldum","Lauriel"], 
             suitable:["Grakk","Valhein"],
             equipments: ["Giày Thuật Sĩ", "Sách Truy Hồn", "Quyền Trượng Rhea", "Băng Nhẫn Skadi", "Gươm Hiền Triết", "Giáp Hộ Mệnh"],//Trang bị gợi ý
+            tier: "C", // Tier của tướng
             note:"" 
         },
         { 
             name: "Ngộ Không", 
             role: ["Top","Jungle"], 
             image: "Media/Ngộ Không.jpg", 
-            counter: ["Omen", "Skud", "Richter","Stuart","Enzo","Raz","Veera","Wonder Woman"], 
+            counter: ["Rourke", "Maloch", "Omen", "Skud", "Richter","Stuart","Enzo","Raz","Veera","Wonder Woman"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "C", // Tier của tướng
             note:"" 
         },
         //O
@@ -806,27 +809,30 @@
             name: "Omega", 
             role: ["Sp"], 
             image: "Media/Omega.jpg", 
-            counter: ["Chaugnar", "", ""], 
+            counter: ["Chaugnar", "Baldum", ""], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "B", // Tier của tướng
             note:"" 
         },
         { 
             name: "Omen", 
             role: ["Top"], 
             image: "Media/Omen.jpg", 
-            counter: ["Florentino", "Mina","Allan","Yena","Hayate","Zip"], 
+            counter: ["Triệu Vân", "KiiGroth", "Florentino", "Mina","Allan","Yena","Hayate","Zip"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "D", // Tier của tướng
             note:"" 
         },
         { 
             name: "Ormarr", 
             role: ["Top","Sp"], 
             image: "Media/Ormarr.jpg", 
-            counter: ["", "", ""], 
+            counter: ["Chaugnar", "Triệu Vân", ""], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "E", // Tier của tướng
             note:"" 
         },
         //P
@@ -834,18 +840,20 @@
             name: "Paine", 
             role: ["Jungle","Mid"], 
             image: "Media/Paine.jpg", 
-            counter: ["", "", ""], 
+            counter: ["Skud", "Rourke", ""], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "C", // Tier của tướng
             note:"" 
         },
         { 
             name: "Preyta", 
             role: ["Mid"], 
             image: "Media/Preyta.jpg", 
-            counter: ["", "", ""], 
+            counter: ["Zata", "Lauriel", ""], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "C", // Tier của tướng
             note:"" 
         },
         //Q
@@ -856,15 +864,17 @@
             counter: ["Florentino", "Omen", "Roxie", "Airi", "KiiGroth", "Omega", "Hayate"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "C", // Tier của tướng
             note:"" 
         },
         { 
             name: "Quillen", 
             role: ["Jungle"], 
             image: "Media/Quillen.jpg", 
-            counter: ["Krizzix", "Illumia", "Max"], 
+            counter: ["Kaine", "Skud", "Krizzix", "Illumia", "Max"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "C", // Tier của tướng
             note:"" 
         },
         //R
@@ -872,45 +882,50 @@
             name: "Raz", 
             role: ["Mid","Jungle","Sp"], 
             image: "Media/Raz.jpg", 
-            counter: ["Veera", "Krixi", "Tulen", "Natalya", "Wonder Woman", "Cresht", "Mganga", "Ignis","Goveera"], 
-            suitable:["",""],
+            counter: ["FLowborn Mid", "Veera", "Krixi", "Tulen", "Natalya", "Wonder Woman", "Cresht", "Mganga", "Ignis","Goveera"], 
+            suitable:["Thane",""],
             equipments: ["Giày Phù Thủy", "Trượng Bùng Nổ", "Vương Miện Hecate", "Mặt Nạ Ma Quái", "Gươm Tận Thế", "Quả Cầu Băng Sương"],//Trang bị gợi ý
+            tier: "D", // Tier của tướng
             note:"" 
         },
         { 
             name: "Richter", 
             role: ["Top","Sp"], 
             image: "Media/Richter.jpg", 
-            counter: ["Florentino", "Omen", "Skud", "Lữ Bố", "Biron", "Hayate", "Biron"], 
+            counter: ["Marja", "Florentino", "Omen", "Skud", "Lữ Bố", "Biron", "Hayate", "Biron"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "C", // Tier của tướng
             note:"" 
         },
         { 
             name: "Rouie", 
             role: ["Mid","Sp"], 
             image: "Media/Rouie.jpg", 
-            counter: ["Raz", "Thane", "Krizzix","Ybneth", "Yue", "Zata", "Liliana", "Superman","Maloch","Lorion"], 
+            counter: ["Flowborn Mid", "Raz", "Thane", "Krizzix","Ybneth", "Yue", "Zata", "Liliana", "Superman","Maloch","Lorion"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "S", // Tier của tướng
             note:"" 
         },
         { 
             name: "Rourke", 
             role: ["Jungle"], 
             image: "Media/Rourke.jpg", 
-            counter: ["", "", ""], 
+            counter: ["Keera", "Zephys", ""], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "C", // Tier của tướng
             note:"" 
         },
         { 
             name: "Roxie", 
             role: ["Top","Sp"], 
             image: "Media/Roxie.jpg", 
-            counter: ["Florentino", "", ""], 
-            suitable:["",""],
+            counter: ["Florentino", "Marja", ""], 
+            suitable:["Krizzik",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "F", // Tier của tướng
             note:"" 
         },
         { 
@@ -920,42 +935,47 @@
             counter: ["Aoi", "Richter", "Teemee", "Omen", "Yena", "Qi"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "B", // Tier của tướng
             note:"" },
         //S
         { 
             name: "Sephera", 
             role: ["Jungle","Sp"], 
             image: "Media/Sephera.jpg", 
-            counter: ["", "", ""], 
+            counter: ["Liliana", "Flowborn Mid", ""], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "F", // Tier của tướng
             note:"" 
         },
         { 
             name: "Sinestrea", 
             role: ["Jungle","Top"], 
             image: "Media/Sinestrea.jpg", 
-            counter: ["Fennik", "Krizzik", "Raz","Paine"], 
+            counter: ["Ngộ Không", "Max", "Fennik", "Krizzik", "Raz","Paine", "Illumia"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "S", // Tier của tướng
             note:"" 
         },
         { 
             name: "Skud", 
             role: ["Top","Jungle"], 
             image: "Media/Skud.jpg", 
-            counter: ["FLorentino", "Maloch", "Marja", "Hayate", "Wonder Woman", "Qi", "Veres"], 
+            counter: ["FLorentino", "Triệu Vân", "Maloch", "Marja", "Hayate", "Wonder Woman", "Qi", "Veres"], 
             suitable:["",""],
             equipments: ["Giày Phù Thủy", "Áo Choàng Thần Ra", "Ma Pháp Trường Bào", "Giáp Gaia", "Giáp Thống Khổ", "Nham Thuẫn"],//Trang bị gợi ý
+            tier: "D", // Tier của tướng
             note:"" 
         },
         { 
             name: "Slimz", 
             role: ["Ad"], 
             image: "Media/Slimz.png", 
-            counter: ["Elsu", "Valhein", "Stuart", "Violet"], 
+            counter: ["Capheny","Elsu", "Valhein", "Stuart", "Violet"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "C", // Tier của tướng
             note:"" 
         },
         { 
@@ -963,17 +983,19 @@
             role: ["Ad"], 
             image: "Media/Stuart.jpg", 
             counter: ["Raz", "Erin", "Helen","Dolia","Taara","Iggy"], 
-            suitable:["",""],
+            suitable:["Dolia",""],
             equipments: ["Giày Du Mục", "Thương Xuyên Phá", "Chùy Băng Sương", "Giáp Gaia", "Nanh Fenrir", "Giáp Hộ Mệnh"],//Trang bị gợi ý
+            tier: "S", // Tier của tướng
             note:"" 
         },
         { 
             name: "Superman", 
             role: ["Top","Mid","Sp"], 
             image: "Media/Superman.jpg", 
-            counter: ["Ignis", "Azzenka", "Aleister"], 
+            counter: ["Dyadia", "Ybneth", "Ignis", "Azzenka", "Aleister"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "E", // Tier của tướng
             note:"" 
         },
         //T
@@ -981,72 +1003,80 @@
             name: "Taara", 
             role: ["Top","Jungle","Sp"], 
             image: "Media/Taara.jpg", 
-            counter: ["Florentino", "Veres", "Airi"], 
+            counter: ["Florentino", "Veres", "Airi","Sách Truy Hồn","Áo Choàng Thần Ra"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "C", // Tier của tướng
             note:"" 
         },
         { 
             name: "Tachi", 
             role: ["Top","Jungle","Sp"], 
             image: "Media/Tachi.jpg", 
-            counter: ["Hayate", "Maloch", "Elandorr","Florentino", "Enzo", "Nakroth","Keera"], 
+            counter: ["Marja", "Hayate", "Maloch", "Elandorr","Florentino", "Enzo", "Nakroth","Keera"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "B", // Tier của tướng
             note:"" 
         },
         { 
             name: "Tamyn", 
             role: ["Top","Jungle"], 
             image: "Media/Tamyn.jpg", 
-            counter: ["", "", "","", "", "",""], 
+            counter: ["Zephys", "Butterfly", "Bijan","Marja", "FLorentino", "",""], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "B", // Tier của tướng
             note:"" 
         },
         { 
             name: "Teemee", 
             role: ["Sp","Top"], 
             image: "Media/Teemee.jpg", 
-            counter: ["Krizzix", "Maloch", "Ybneth"], 
+            counter: ["Grakk", "Annette", "Krizzix", "Maloch", "Ybneth"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "B", // Tier của tướng
             note:"" 
         },
         { 
             name: "Telannas", 
             role: ["Ad"], 
             image: "Media/Telannas.jpg", 
-            counter: ["Stuart", "Violet", "Elsu"], 
+            counter: ["Celica", "FLowborn Ad", "Stuart", "Violet", "Elsu"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "D", // Tier của tướng
             note:"" 
         },
         { 
             name: "Terri", 
             role: ["Ad"], 
             image: "Media/Terri.jpg", 
-            counter: ["Elsu", "Stuart", "Capheny"], 
+            counter: ["Flowborn Ad", "Elsu", "Stuart", "Capheny"], 
             suitable:["Krizzik",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "E", // Tier của tướng
             note:"" 
         },
         { 
             name: "Thane", 
             role: ["Sp"], 
             image: "Media/Thane.png", 
-            counter: ["Florentino", "Teemee", "Lumburr","Chaugnar"], 
+            counter: ["Dyadia", "Annette", "Florentino", "Teemee", "Lumburr","Chaugnar"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "C", // Tier của tướng
             note:"" 
         },
         { 
             name: "The Flash", 
             role: ["Mid","Jungle"], 
             image: "Media/The Flash.jpg", 
-            counter: ["", "", ""], 
+            counter: ["Veera", "Liliana", ""], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "D", // Tier của tướng
             note:"" 
         },
         { 
@@ -1056,33 +1086,37 @@
             counter: ["Stuart", "Valhein", "Telannas", "Heino"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "C", // Tier của tướng
             note:"" 
         },
         { 
             name: "Toro", 
             role: ["Sp"], 
             image: "Media/Toro.jpg", 
-            counter: ["FLorentino", "", ""], 
+            counter: ["FLorentino", "Chaugnar", "Maloch"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "B", // Tier của tướng
             note:"" 
         },
         { 
             name: "Triệu Vân", 
             role: ["Top","Jungle","Sp"], 
             image: "Media/Triệu Vân.jpg", 
-            counter: ["Murad", "Florentino", "Ryoma","Dextra"], 
+            counter: ["Murad", "Florentino", "Ryoma","Dextra","Keera"], 
             suitable:["Bijan",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "D", // Tier của tướng
             note:"Lên tank! Làm ơn lên tank! Đừng lên sát thương, tướng mạnh đầu game, có thể đi rừng hoặc top. Nâng max chiêu 2 trước." 
         },
         { 
             name: "Tulen", 
             role: ["Mid","Jungle"], 
             image: "Media/Tulen.jpg", 
-            counter: ["Mganga", "Krixi", "Liliana", "Raz", "Lorion", "Ignis", "Zata", "Natalya", "Aoi", "Billow", "Richter", "Thane"], 
+            counter: ["Flowborn Mid","Mganga", "Krixi", "Liliana", "Raz", "Lorion", "Ignis", "Zata", "Natalya", "Aoi", "Billow", "Richter", "Thane","Veera"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "C", // Tier của tướng
             note:"" 
         },
         //V
@@ -1090,45 +1124,50 @@
             name: "Valhein", 
             role: ["Ad"], 
             image: "Media/Valhein.jpg", 
-            counter: ["Fennik", "Mina", "Telannas", "Terri", "Elsu", "Heino", "Stuart"], 
+            counter: ["Flowborn Ad", "Fennik", "Mina", "Telannas", "Terri", "Elsu", "Heino", "Stuart"], 
             suitable:["Grakk","Ming","Natalya","Rouie","Lorion"],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "D", // Tier của tướng
             note:"" 
         },
         { 
             name: "Veera", 
             role: ["Mid"], 
             image: "Media/Veera.jpg", 
-            counter: ["Raz", "Liliana", "Natalya", "Skud", "Toro", "Keera","Lauriel", "Ignis"], 
-            suitable:["Grakk","Enzo"],
+            counter: ["Dirak", "Raz", "Liliana", "Natalya", "Skud", "Toro", "Keera","Lauriel", "Ignis"], 
+            suitable:["Grakk", "Enzo", "Krizzik"],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "D", // Tier của tướng
             note:"" 
         },
         { 
             name: "Veres", 
             role: ["Top","Jungle","Sp"], 
             image: "Media/Veres.jpg", 
-            counter: ["Florentino", "Yena", "Airi", "Keera", "Thane", "Hayate"], 
+            counter: ["Marja","Florentino", "Yena", "Airi", "Keera", "Thane", "Hayate", "Billow"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "D", // Tier của tướng
             note:"" 
         },
         { 
             name: "Violet", 
             role: ["Ad"], 
             image: "Media/Violet.jpg", 
-            counter: ["Valhein", "Stuart", "Telannas"], 
+            counter: ["Capheny", "Valhein", "Stuart", "Telannas"], 
             suitable:["",""],
             equipments: ["Giày Du Mục", "Thánh Kiếm", "Song Đao Bão Táp", "Thương Xuyên Phá", "Nanh Fenrir", "Giáp Hộ Mệnh"],//Trang bị gợi ý
+            tier: "C", // Tier của tướng
             note:"" 
         },
         { 
             name: "Volkath", 
             role: ["Top","Jungle","Sp"], 
             image: "Media/Volkath.jpg", 
-            counter: ["", "", ""], 
-            suitable:["",""],
+            counter: ["Zuka", "Keera", "Marja"], 
+            suitable:["Dolia",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "A", // Tier của tướng
             note:"" 
         },
         //W
@@ -1136,27 +1175,30 @@
             name: "Wiro", 
             role: ["Top","Sp"], 
             image: "Media/Wiro.jpg", 
-            counter: ["Florentino", "", ""], 
+            counter: ["Florentino", "Dyadia", "Triệu Vân"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "D", // Tier của tướng
             note:"" 
         },
         { 
             name: "Wisp", 
             role: ["Ad"], 
             image: "Media/Wisp.jpg", 
-            counter: ["Valhein", "Stuart", ""], 
+            counter: ["Valhein", "Stuart", "Celica", "Violet"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "B", // Tier của tướng
             note:"" 
         },
         { 
             name: "Wonder Woman", 
             role: ["Jungle"], 
             image: "Media/Wonder Woman.jpg", 
-            counter: ["", "", ""], 
+            counter: ["Keera", "Florentino", ""], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "D", // Tier của tướng
             note:"" 
         },
         //X
@@ -1164,9 +1206,10 @@
             name: "Xeniel", 
             role: ["Top","Jungle"], 
             image: "Media/Xeniel.jpg", 
-            counter: ["Maloch", "Krizzix", "Omen", "Liliana"], 
+            counter: ["Enzo", "Thane", "Maloch", "Krizzix", "Omen", "Liliana"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "D", // Tier của tướng
             note:"" 
         },
         //Y
@@ -1174,44 +1217,49 @@
             name: "Yan", 
             role: ["Top","Jungle"], 
             image: "Media/Yan.jpg", 
-            counter: ["", "", ""], 
+            counter: ["Keera", "Florentino", ""], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "D", // Tier của tướng
             note:"" 
         },
         { 
             name: "Ybneth", 
             role: ["Sp"], 
             image: "Media/Ybneth.jpg", 
-            counter: ["FLorentino", "Baldum", "Thane", "Maloch"], 
+            counter: ["FLorentino", "Annette", "Baldum", "Thane", "Maloch"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "S", // Tier của tướng
             note:"" 
         },
         { 
             name: "Yena", 
             role: ["Top"], 
             image: "Media/Yena.jpg", 
-            counter: ["FLorentino", "Skud", "Ryoma", "Charlotte", "Qi", "Zuka"], 
+            counter: ["Billow", "Arthur", "FLorentino", "Skud", "Ryoma", "Charlotte", "Qi", "Zuka"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "C", // Tier của tướng
             note:"" },
         { 
             name: "Yorn", 
             role: ["Ad"], 
             image: "Media/Yorn.jpg", 
-            counter: ["Valhein", "Stuart", "Celica", "Elsu"], 
+            counter: ["Flowborn Ad", "Valhein", "Stuart", "Celica", "Elsu"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "D", // Tier của tướng
             note:"" 
         },
         { 
             name: "Yue", 
             role: ["Mid"], 
             image: "Media/Yue.jpg", 
-            counter: ["Iggy", "Raz", "Zata", "Tulen"], 
-            suitable:["",""],
+            counter: ["Liliana", "Gildur", "Iggy", "Raz", "Zata", "Tulen"], 
+            suitable:["Gildur",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "B", // Tier của tướng
             note:"" 
         },
         //Z
@@ -1219,45 +1267,50 @@
             name: "Zata", 
             role: ["Mid"], 
             image: "Media/Zata.jpg", 
-            counter: ["Yue", "Lorion", "Aleister", "Raz", "Liliana"], 
-            suitable:["Richter",""],
+            counter: ["Dirak", "Veera", "Yue", "Lorion", "Aleister", "Raz", "Liliana"], 
+            suitable:["Richter","Dolia"],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "B", // Tier của tướng
             note:"" 
         },
         { 
             name: "Zephys", 
             role: ["Jungle"], 
             image: "Media/Zephys.jpg", 
-            counter: ["Elandorr", "Wonder Woman", "Tachi"], 
-            suitable:["",""],
+            counter: ["Keera", "Elandorr", "Wonder Woman", "Tachi"], 
+            suitable:["Aya",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "A", // Tier của tướng
             note:"" 
         },
         { 
             name: "Zill", 
             role: ["Jungle"], 
             image: "Media/Zill.jpg", 
-            counter: ["", "", ""], 
-            suitable:["",""],
+            counter: ["Yan", "Wonder Woman", ""], 
+            suitable:["Aya",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "C", // Tier của tướng
             note:"" 
         },
         { 
             name: "Zip", 
             role: ["Sp"], 
             image: "Media/Zip.jpg", 
-            counter: ["Ata", "", ""], 
-            suitable:["",""],
+            counter: ["Ata", "Grakk", "Baldum"], 
+            suitable:["Valhein", "Telannas", "Celica", "Yorn"],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "B", // Tier của tướng
             note:"" 
         },
         { 
             name: "Zuka", 
             role: ["Top","Jungle"], 
             image: "Media/Zuka.jpg", 
-            counter: ["Bijan", "Dextra", ""], 
+            counter: ["Biron", "Arthur", "Bijan", "Dextra", "Skud", "Billow"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
+            tier: "B", // Tier của tướng
             note:"" 
         }
     ];
