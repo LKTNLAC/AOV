@@ -523,7 +523,7 @@
             name: "Ilumia", 
             role: ["Mid","Sp"], 
             image: "Media/Ilumia.jpg", 
-            counter: ["Flowborn Mid", "Kahlii", "Yue", "Zata"], 
+            counter: ["Flowborn Mid", "Kahlii", "Yue", "Zata", "Natalya"], 
             suitable:["",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             tier: "D", // Tier của tướng
