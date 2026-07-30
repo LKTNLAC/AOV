@@ -718,7 +718,7 @@
             role: ["Top","Sp"], 
             image: "Media/Max.jpg", 
             counter: ["Arum", "Dolia", "Teemee"], 
-            suitable:["",""],
+            suitable:["Zata","Lorion"],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             tier: "E", // Tier của tướng
             note:"" 
@@ -757,8 +757,8 @@
             name: "Moren", 
             role: ["Ad"], 
             image: "Media/Moren.jpg", 
-            counter: ["Stuart", "Fennik", ""], 
-            suitable:["",""],
+            counter: ["Stuart", "Fennik", "Flowborn Ad"], 
+            suitable:["Dolia",""],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             tier: "B", // Tier của tướng
             note:"" 
