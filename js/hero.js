@@ -87,7 +87,7 @@
             role: ["Top","Sp"], 
             image: "Media/Arthur.jpg", 
             counter: ["Marja","Bijan", "Florentino", "Maloch","Tachi","Hayate","Triệu Vân","Điêu Thuyền","Aleister"], 
-            suitable:["Aya","Alice"],
+            suitable:["Aya","Alice", "Lorion"],
             equipments: ["", "", "", "", "", ""],//Trang bị gợi ý
             tier: "A", // Tier của tướng
             note:"Nâng max chiêu 2" 
